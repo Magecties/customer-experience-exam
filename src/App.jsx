@@ -19,10 +19,6 @@ export default function App() {
         <Route path="/products" element={<ProductPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-
-
-  
-
     </>
   );
 }
