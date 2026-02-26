@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Oversized Graphic Hoodie",
+    "price": 699,
+    "description": "Heavy 400gsm fleece hoodie with bold front graphic print. Dropped shoulders and kangaroo pocket.",
+    "category": "hoodies",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600&q=80",
+    "imageHover": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+    "inStock": true,
+    "rating": { "rate": 4.7, "count": 312 }
+  },
+  {
+    "id": 2,
+    "title": "Baggy Cargo Pants",
+    "price": 899,
+    "description": "Wide-leg cargo trousers with six utility pockets. 100% cotton twill in washed black.",
+    "category": "pants",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+    "imageHover": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80",
+    "inStock": true,
+    "rating": { "rate": 4.5, "count": 198 }
+  },
+  {
+    "id": 3,
+    "title": "Washed Denim Jacket",
+    "price": 1199,
+    "description": "Vintage-washed oversized denim jacket with distressed detailing and custom back embroidery.",
+    "category": "jackets",
+    "image": "https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=600&q=80",
+    "imageHover": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&q=80",
+    "inStock": true,
+    "rating": { "rate": 4.8, "count": 421 }
+  },
+  {
+    "id": 4,
+    "title": "Box Logo Tee",
+    "price": 399,
+    "description": "Essential heavyweight cotton tee with a clean box logo print on chest. Relaxed fit.",
+    "category": "t-shirts",
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
+    "imageHover": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=600&q=80",
+    "inStock": true,
+    "rating": { "rate": 4.3, "count": 876 }
+  },
+  {
+    "id": 5,
+    "title": "Puffer Vest",
+    "price": 1099,
+    "description": "Lightweight 700-fill down puffer vest. Side zip pockets, stand collar, matte nylon shell.",
+    "category": "jackets",
+    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&q=80",
+    "imageHover": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
+    "inStock": false,
+    "rating": { "rate": 4.6, "count": 154 }
+  },
+  {
+    "id": 6,
+    "title": "Track Pants",
+    "price": 649,
+    "description": "Slim-tapered track pants with contrast side stripe and elastic waistband. Moisture-wicking fabric.",
+    "category": "pants",
+    "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80",
+    "imageHover": "https://images.unsplash.com/photo-1591195853828-11db59a44f43?w=600&q=80",
+    "inStock": true,
+    "rating": { "rate": 4.1, "count": 267 }
+  },
+  {
+    "id": 7,
+    "title": "Bucket Hat",
+    "price": 299,
+    "description": "Unstructured cotton canvas bucket hat with an embroidered logo patch. One size fits all.",
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1572307480813-ceb0e59d8325?w=600&q=80",
+    "imageHover": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&q=80",
+    "inStock": true,
+    "rating": { "rate": 4.4, "count": 533 }
+  },
+  {
+    "id": 8,
+    "title": "Coach Jacket",
+    "price": 1349,
+    "description": "Satin-finish coach jacket with snap buttons, ribbed cuffs, and embroidered chest logo.",
+    "category": "jackets",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+    "imageHover": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600&q=80",
+    "inStock": true,
+    "rating": { "rate": 4.9, "count": 89 }
+  }
+]

@@ -1,3 +1,7 @@
+import ProductGrid from "../components/Productgrid";
+import "./ProductPage.css"
+
+
 export default function ProductPage() {
   return (
   
