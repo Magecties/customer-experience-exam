@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap");
+
+/* Hero section */
+
+.wanted-hero {
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.wanted-hero-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.6rem, 4.5vw, 3rem);
+  font-weight: 900;
+  color: #e8e4de;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 36px;
+}
+
+.wanted-hero-accent {
+  color: #f97316;
+}
+
+.wanted-hero-cards {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 1300px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Card */
+
+.wanted-card {
+  position: relative;
+  flex: 1 1 0;
+  max-width: 420px;
+  min-width: 260px;
+  aspect-ratio: 3 / 4.5;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.35s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(
+    180deg,
+    rgb(180, 175, 165) 0%,
+    rgb(200, 195, 185) 15%,
+    rgb(190, 185, 175) 100%
+  );
+}
+
+.wanted-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.wanted-card--selected {
+  transform: scale(1.04);
+  box-shadow: 0 0 0 3px #f97316, 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+.wanted-card--selected:hover {
+  transform: scale(1.04);
+}
+
+/* Mugshot lines */
+
+.wanted-card-lines {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 12% 0 4% 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.wanted-card-line {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.wanted-card-ruler {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.wanted-card-height {
+  position: absolute;
+  font-size: 0.55rem;
+  font-family: "Courier New", monospace;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.wanted-card-height.left {
+  left: 8px;
+}
+
+.wanted-card-height.right {
+  right: 8px;
+}
+
+/* Card header */
+
+.wanted-card-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  text-align: center;
+  padding: 12px 12px 0;
+}
+
+.wanted-card-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+  font-weight: 900;
+  color: #1a1a1a;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+}
+
+.wanted-card-name {
+  font-family: "Courier New", monospace;
+  font-size: clamp(0.45rem, 1.2vw, 0.7rem);
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 2px 0 0;
+}
+
+/* Card image */
+
+.wanted-card-image-wrapper {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 8%;
+}
+
+.wanted-card-image {
+  width: 70%;
+  height: 75%;
+  object-fit: cover;
+  object-position: top;
+  pointer-events: none;
+}
+
+/* Card price */
+
+.wanted-card-price {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  background: #111;
+  color: #fff;
+  padding: 8px 28px;
+  font-family: "Courier New", monospace;
+  font-size: clamp(0.85rem, 2vw, 1.15rem);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .wanted-hero-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

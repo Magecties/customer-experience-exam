@@ -8,7 +8,7 @@ const [products, setProducts] = useState([]);
 
     useEffect(() => {
       async function fetchProducts() {
-      const url = "https://raw.githubusercontent.com/cederdorff/race/refs/heads/master/data/webshop/products.json";
+      const url = "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products.json";
       const response = await fetch(url);
       const data = await response.json();
       setProducts(data);
