@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap");
-
+@font-face {
+  font-family: 'nashville';
+  src: url(../fonts/Nashville.ttf) format("truetype");
+}
 /* Hero section */
 
 .wanted-hero {
@@ -11,7 +14,7 @@
 }
 
 .wanted-hero-title {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "nashville", serif;
   font-size: clamp(1.6rem, 4.5vw, 3rem);
   font-weight: 900;
   color: #e8e4de;
@@ -129,7 +132,7 @@
 }
 
 .wanted-card-title {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "nashville",  serif;
   font-size: clamp(1.4rem, 3.5vw, 2.2rem);
   font-weight: 900;
   color: #1a1a1a;
