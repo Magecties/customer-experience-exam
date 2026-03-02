@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "bronco";
+  src: url(../fonts/BroncoPersonalUse.ttf) format("truetype");
+}
+
+.home-page {
+  background: #1a1a1a;
+  min-height: 100vh;
+}
+
+/* Category Grid */
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding: 24px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.category-card {
+  position: relative;
+  aspect-ratio: 3 / 2.6;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.category-card:hover img {
+  transform: scale(1.04);
+}
+
+.category-label {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  z-index: 2;
+  font-family: "bronco", serif;
+  font-size: clamp(0.85rem, 2vw, 1.3rem);
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background-image: url("/img/pricecard.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 14px 32px 36px 32px;
+  white-space: nowrap;
+  rotate: 4deg;
+  text-shadow: none;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+}
