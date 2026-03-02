@@ -7,6 +7,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import Product from "./components/Product";
 import ProductGrid from "./components/Productgrid";
 import ProductPage from "./pages/ProductPage";
+import MostWantedHero from "./components/MostWantedHero";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/products" element={<ProductPage />} />
+        <Route path="/most-wanted" element={<MostWantedHero />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>

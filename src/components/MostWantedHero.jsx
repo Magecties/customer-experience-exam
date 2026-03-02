@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./MostWantedHero.css";
+import "../css/MostWantedHero.css";
 
 function MostWantedHero() {
   const [products, setProducts] = useState([]);
