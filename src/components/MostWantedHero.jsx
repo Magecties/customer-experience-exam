@@ -45,7 +45,7 @@ function MostWantedHero() {
               </div>
 
               <div className="wanted-card-price">{product.price} DKK</div>
-              
+              <div className="wanted-card-price-hover">Go to page</div>
             </div>
           </div>
         ))}

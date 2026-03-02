@@ -52,6 +52,7 @@
   background-image: url("/img/WantedCard.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  overflow: visible;
   cursor: pointer;
   transition:
     transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
@@ -59,11 +60,15 @@
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
-.wanted-card:hover {
-  transform: scale(1.02);
-  box-shadow:
-    0 0 0 3px #f97316,
-    0 20px 60px rgba(0, 0, 0, 0.6);
+.wanted-card::after {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  background-image: url("/img/wantedcard-stroke.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 5;
 }
 
 .wanted-card--selected {
@@ -140,6 +145,52 @@
   letter-spacing: 0.06em;
   white-space: nowrap;
   rotate: +5deg;
+}
+
+.wanted-card-price-hover {
+  display: none;
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  color: #fff;
+  padding: 20px 60px 55px 60px;
+  text-align: center;
+  font-family: "bronco", monospace;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  rotate: +5deg;
+}
+
+.wanted-card-price-hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(../public/img/pricecard.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.wanted-card:hover .wanted-card-price {
+  display: none;
+}
+
+.wanted-card:hover .wanted-card-price-hover {
+  display: block;
+}
+
+.wanted-card:hover .wanted-card-price-hover::before {
+  filter: invert(52%) sepia(96%) saturate(600%) hue-rotate(352deg)
+    brightness(103%) contrast(97%);
+}
+
+.wanted-card:hover::after {
+  filter: invert(52%) sepia(96%) saturate(600%) hue-rotate(352deg)
+    brightness(103%) contrast(97%);
 }
 
 /* Responsive */
