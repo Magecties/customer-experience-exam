@@ -12,19 +12,32 @@
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  grid-template-columns: repeat(3, 360px);
+  gap: 42px;
   padding: 24px;
   max-width: 1300px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .category-card {
   position: relative;
-  aspect-ratio: 3 / 2.6;
-  overflow: hidden;
+  width: 360px;
+  height: 360px;
+  overflow: visible;
   cursor: pointer;
   border-radius: 4px;
+}
+
+.category-card::after {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  background-image: url("../public/img/homecard-stroke.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .category-card img {
@@ -34,30 +47,48 @@
   object-position: center top;
   transition: transform 0.4s ease;
   display: block;
-}
-
-.category-card:hover img {
-  transform: scale(1.04);
+  border-radius: 4px;
 }
 
 .category-label {
   position: absolute;
-  bottom: 16px;
-  right: 16px;
+  bottom: -18px;
+  right: -40px;
   z-index: 2;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "bronco", serif;
-  font-size: clamp(0.85rem, 2vw, 1.3rem);
+  font-size: 28px;
   font-weight: 900;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  white-space: nowrap;
+  rotate: -7deg;
+  text-shadow: none;
+}
+
+.category-label::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background-image: url("/img/pricecard.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 14px 32px 36px 32px;
-  white-space: nowrap;
-  rotate: 4deg;
-  text-shadow: none;
+  z-index: -1;
+}
+
+.category-card:hover .category-label::before {
+  filter: invert(52%) sepia(96%) saturate(600%) hue-rotate(352deg)
+    brightness(103%) contrast(97%);
+}
+
+.category-card:hover::after {
+  filter: invert(52%) sepia(96%) saturate(600%) hue-rotate(352deg)
+    brightness(103%) contrast(97%);
 }
 
 /* Responsive */

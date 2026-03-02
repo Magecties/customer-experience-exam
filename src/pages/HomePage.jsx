@@ -1,17 +1,17 @@
 import "../css/HomePage.css";
 
 const CATEGORIES = [
-  { label: "All Items", image: "https://picsum.photos/seed/allitems/600/500" },
-  { label: "Tops", image: "https://picsum.photos/seed/tops/600/500" },
-  { label: "Bottoms", image: "https://picsum.photos/seed/bottoms/600/500" },
-  { label: "Footwear", image: "https://picsum.photos/seed/footwear/600/500" },
+  { label: "All Items", image: "../public/home-img/1.svg" },
+  { label: "Tops", image: "../public/home-img/2.svg" },
+  { label: "Bottoms", image: "../public/home-img/3.svg" },
+  { label: "Footwear", image: "../public/home-img/4.svg" },
   {
     label: "Accessories",
-    image: "https://picsum.photos/seed/accessories/600/500",
+    image: "../public/home-img/5.svg",
   },
   {
     label: "New Arrivals",
-    image: "https://picsum.photos/seed/newarrivals/600/500",
+    image: "../public/home-img/6.svg",
   },
 ];
 
