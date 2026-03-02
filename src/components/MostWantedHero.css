@@ -45,8 +45,9 @@
   border-radius: 6px;
   overflow: hidden;
   cursor: pointer;
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
-              box-shadow 0.35s ease;
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   background: linear-gradient(
     180deg,
@@ -64,7 +65,9 @@
 
 .wanted-card--selected {
   transform: scale(1.04);
-  box-shadow: 0 0 0 3px #f97316, 0 20px 60px rgba(0, 0, 0, 0.6);
+  box-shadow:
+    0 0 0 3px #f97316,
+    0 20px 60px rgba(0, 0, 0, 0.6);
 }
 
 .wanted-card--selected:hover {
@@ -79,7 +82,7 @@
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  padding: 12% 0 4% 0;
+  padding: 25% 0 4% 0;
   pointer-events: none;
   z-index: 1;
 }
