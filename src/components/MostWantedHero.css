@@ -90,13 +90,13 @@
 
 .wanted-card-name {
   font-family: "nashville", monospace;
-  font-size: clamp(0.5rem, 1.4vw, 0.8rem);
+  font-size: 30px;
   font-weight: 700;
   color: #393939;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   margin: 0;
-  padding-top: 30%;
+  padding-top: 20%;
 }
 
 /* Produkt-billede */
@@ -132,7 +132,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   color: #fff;
-  padding: 45px 60px;
+  padding: 20px 60px 55px 60px;
   text-align: center;
   font-family: "bronco", monospace;
   font-size: 1.8rem;
