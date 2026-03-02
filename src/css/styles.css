@@ -6,14 +6,18 @@
   font-family: "bronco";
   src: url(../fonts/BroncoPersonalUse.ttf) format("truetype");
 }
+@font-face {
+  font-family: "inter";
+  src: url(../fonts/Inter-VariableFont_opsz.ttf) format("truetype");
+}
 :root {
  --orange: #C46A2D;
  --grey: #393939;
  --black: #1F1F1F;
  --white: #E6E6E6; 
-  
+ --headline: font-family: "bronco", serif;
+--subheadline: font-family: "inter", sans-serif;
 }
-
 
 body {
   margin: 0;

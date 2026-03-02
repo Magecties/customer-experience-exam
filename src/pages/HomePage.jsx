@@ -1,4 +1,5 @@
 import "../css/HomePage.css";
+import NavbarHero from "../components/NavbarHero";
 
 const CATEGORIES = [
   { label: "All Items", image: "../public/home-img/1.svg" },
@@ -18,6 +19,14 @@ const CATEGORIES = [
 export default function HomePage() {
   return (
     <div className="home-page">
+      <section className="hero-section">
+        <NavbarHero />
+        <div className="hero-content">
+          <div className="hero-label">
+            <span>New Arrivals</span>
+          </div>
+        </div>
+      </section>
       <div className="category-grid">
         {CATEGORIES.map((cat) => (
           <div className="category-card" key={cat.label}>

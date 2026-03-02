@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "bronco";
+  src: url(../fonts/BroncoPersonalUse.ttf) format("truetype");
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 480px;
+  background-image: url("../img/hero.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+
+/* Nav links */
+
+.hero-nav {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  padding: 24px 32px;
+}
+
+.hero-nav a {
+  font-family: var(--subheadline);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: color 0.2s ease;
+}
+
+.hero-nav a:hover {
+  color: #f97316;
+}
+
+/* Centered label */
+
+.hero-content {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-label {
+  position: relative;
+  padding: 50px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hero-label::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../public/img/HeroCTA-stroke.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 1;
+  transition:
+    background-image 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.hero-label:hover::before {
+  background-image: none;
+  background-color: var(--orange);
+}
+
+.hero-label span {
+  position: relative;
+  z-index: 2;
+  font-family: var(--headline);
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--orange);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.hero-label:hover span {
+  color: var(--white);
+}

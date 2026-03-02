@@ -1,5 +1,5 @@
 /* Navigation */
-nav {
+.main-nav {
   background-image: url("../public/img/NavBar.svg");
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -11,7 +11,7 @@ nav {
   z-index: 100;
 }
 
-nav a {
+.main-nav a {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -19,13 +19,13 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-nav a:hover {
+.main-nav a:hover {
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
   position: relative;
 }
 
-nav a:hover::after {
+.main-nav a:hover::after {
   content: "";
   position: absolute;
   bottom: 9px;
@@ -37,12 +37,12 @@ nav a:hover::after {
   background-repeat: no-repeat;
 }
 
-nav a.active {
+.main-nav a.active {
   color: var(--orange);
   position: relative;
 }
 
-nav a.active::after {
+.main-nav a.active::after {
   content: "";
   position: absolute;
   bottom: 9px;
