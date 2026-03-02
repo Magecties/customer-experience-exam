@@ -59,6 +59,7 @@
 .wanted-card:hover {
   transform: scale(1.02);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 3px #f97316, 0 20px 60px rgba(0, 0, 0, 0.6);
 }
 
 .wanted-card--selected {
