@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/MostWantedHero.css";
 
-function MostWantedHero() {
+function MostWantedPage() {
   const [products, setProducts] = useState([]);
   const [selectedId, setSelectedId] = useState(null);
 
@@ -54,4 +54,4 @@ function MostWantedHero() {
   );
 }
 
-export default MostWantedHero;
+export default MostWantedPage;
