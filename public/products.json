@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Oversized Graphic Hoodie",
+    "title": "sej mand",
     "price": 699,
     "description": "Heavy 400gsm fleece hoodie with bold front graphic print. Dropped shoulders and kangaroo pocket.",
     "category": "hoodies",
-    "image": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600&q=80",
+    "image": "../img/mand.svg",
     "imageHover": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
     "inStock": true,
     "rating": { "rate": 4.7, "count": 312 }
