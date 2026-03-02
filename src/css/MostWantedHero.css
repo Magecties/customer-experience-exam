@@ -1,12 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap");
-@font-face {
-  font-family: "nashville";
-  src: url(../fonts/Nashville.ttf) format("truetype");
-}
-@font-face {
-  font-family: "bronco";
-  src: url(../fonts/BroncePersonalUse.ttf) format("truetype");
-}
 /* Hero section */
 
  body {
@@ -16,6 +7,13 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.wanted-hero {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 .wanted-hero-title {
   font-family: "bronco", serif;
   font-size: 80px;
