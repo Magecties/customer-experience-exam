@@ -1,0 +1,82 @@
+/* 404 */
+.not-found-page {
+  background-color: white;
+  min-height: 100vh;
+  position: relative;
+}
+
+.not-found-link {
+  position: absolute;
+  bottom: 9%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  color: #fff;
+  padding: 20px 60px 55px 60px;
+  text-align: center;
+  font-family: "bronco", monospace;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  rotate: +5deg;
+  text-decoration: none;
+}
+
+.not-found-link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(../public/img/pricecard.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.not-found-link:hover::before {
+  filter: invert(52%) sepia(96%) saturate(600%) hue-rotate(352deg)
+    brightness(103%) contrast(97%);
+}
+
+.not-found {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.not-found p {
+  margin-bottom: 2rem;
+}
+
+.not-found-title {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.not-found-header {
+  color: #1F1F1F;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+@keyframes spin-bounce {
+  0% {
+    transform: rotate(0deg) translateY(0px);
+  }
+  25% {
+    transform: rotate(90deg) translateY(-12px);
+  }
+  50% {
+    transform: rotate(180deg) translateY(0px);
+  }
+  75% {
+    transform: rotate(270deg) translateY(-12px);
+  }
+  100% {
+    transform: rotate(360deg) translateY(0px);
+  }
+}
+
+.not-found-image {
+  animation: spin-bounce 3s linear infinite;
+  transform-origin: center;
+}
