@@ -33,8 +33,6 @@ function MostWantedHero() {
             className={`wanted-card ${selectedId === product.id ? "wanted-card--selected" : ""}`}
             onClick={() => handleCardClick(product.id)}
           >
-            <img className="wanted-card-bg" src="/img/WantedCard.svg" alt="" />
-
             <div className="wanted-card-overlay">
               <p className="wanted-card-name">{product.title}</p>
 
