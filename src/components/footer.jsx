@@ -27,7 +27,7 @@ export default function Footer() {
 
         <div className="footer-column">
           <span className="footer-heading">Support</span>
-          <NavLink to="/contact">Return & Exchanges</NavLink>
+          <NavLink to="/return">Return & Exchanges</NavLink>
           <NavLink to="/faq">FAQ</NavLink>
           <NavLink to="/contact">Contact</NavLink>
         </div>

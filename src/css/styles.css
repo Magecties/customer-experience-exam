@@ -11,16 +11,15 @@
   src: url(../fonts/Inter-VariableFont_opsz.ttf) format("truetype");
 }
 :root {
- --orange: #C46A2D;
- --grey: #393939;
- --black: #1F1F1F;
- --white: #E6E6E6; 
- --headline: font-family: "bronco", serif;
---subheadline: font-family: "inter", sans-serif;
---filter: invert(44%) sepia(97%) saturate(500%) hue-rotate(360deg)
+  --orange: #c46a2d;
+  --grey: #393939;
+  --black: #1f1f1f;
+  --white: #e6e6e6;
+  --headline: "bronco", serif;
+  --subheadline: "inter", sans-serif;
+  --filter: invert(44%) sepia(97%) saturate(500%) hue-rotate(360deg)
     brightness(97%) contrast(98%);
 }
-  
 
 body {
   margin: 0;
@@ -32,6 +31,3 @@ body {
   background-color: #1a1a1a;
   font-size: 25px;
 }
-
-
-
