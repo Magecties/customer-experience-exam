@@ -83,10 +83,14 @@
     background-color 0.2s ease;
 }
 
+
 .hero-label:hover::before {
-  background-image: none;
-  background-color: var(--orange);
+ transform: scale(1.1);
+ background-color: var(--orange); 
+ background-image: none;
 }
+
+
 
 .hero-label span {
   position: relative;
