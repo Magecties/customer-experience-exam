@@ -1,5 +1,6 @@
 import "../css/HomePage.css";
 import NavbarHero from "../components/NavbarHero";
+import Footer from "../components/footer";
 
 const CATEGORIES = [
   { label: "All Items", image: "../public/home-img/1.svg" },
@@ -34,7 +35,9 @@ export default function HomePage() {
             <span className="category-label">{cat.label}</span>
           </div>
         ))}
+        
       </div>
+      <Footer />
     </div>
   );
 }
