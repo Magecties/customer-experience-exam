@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "sej mand",
+    "price": 699,
+    "description": "Heavy 400gsm fleece hoodie with bold front graphic print. Dropped shoulders and kangaroo pocket.",
+    "category": "hoodies",
+    "image": "../img/mand.svg",
+    "inStock": true,
+    "rating": { "rate": 4.7, "count": 312 }
+  },
+  {
+    "id": 2,
+    "title": "outlaw",
+    "price": 499,
+    "description": "Oversized graphic tee with distressed print. 100% heavyweight cotton.",
+    "category": "tees",
+    "image": "../img/mand.svg",
+    "inStock": true,
+    "rating": { "rate": 4.5, "count": 210 }
+  },
+  {
+    "id": 3,
+    "title": "bounty",
+    "price": 849,
+    "description": "Washed denim jacket with embroidered back patch. Relaxed fit.",
+    "category": "jackets",
+    "image": "../img/mand.svg",
+    "inStock": false,
+    "rating": { "rate": 4.9, "count": 87 }
+  }
+]

@@ -6,7 +6,6 @@ export default function Navbar() {
     <nav className="main-nav">
       <NavLink to="/">Home</NavLink>
       <NavLink to="/products">Products</NavLink>
-      <NavLink to="/most-wanted">Most Wanted</NavLink>
       <NavLink to="/about">About</NavLink>
       <NavLink to="/contact">Contact</NavLink>
     </nav>

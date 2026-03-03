@@ -1,6 +1,9 @@
 import "../css/HomePage.css";
 import NavbarHero from "../components/NavbarHero";
 import Ticker from "../components/Ticker";
+import CardSlider from "../components/CardSlider";
+import TheMostWantedText from "../components/themostwantedtext";
+
 
 const CATEGORIES = [
   { label: "All Items", image: "../public/home-img/1.svg" },
@@ -29,7 +32,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
+      <TheMostWantedText />
+        <CardSlider />
+      
       <div className="category-grid">
         {CATEGORIES.map((cat) => (
           <div className="category-card" key={cat.label}>

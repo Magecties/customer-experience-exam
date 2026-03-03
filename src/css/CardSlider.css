@@ -1,44 +1,26 @@
-/* Hero section */
+/* ─── Card Slider ─────────────────────────────────────────────────────────── */
 
- body {
-    background-image: url("../img/bg-img.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.wanted-hero {
+.card-slider {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
 }
 
-.wanted-hero-title {
-  font-family: "bronco", serif;
-  font-size: 80px;
-  font-weight: 900;
-  color: var(--white);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0 0 36px;
+.card-slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
-.wanted-hero-accent {
-  color: var(--orange);
-}
-
-.wanted-hero-cards {
+.card-slider-cards {
   display: flex;
   gap: 20px;
-  width: 100%;
-  max-width: 1300px;
   justify-content: center;
-  flex-wrap: wrap;
+  flex: 1;
 }
 
-/* Card */
+/* ─── Wanted card ─────────────────────────────────────────────────────────── */
 
 .wanted-card {
   position: relative;
@@ -68,11 +50,9 @@
   z-index: 5;
 }
 
-.wanted-card--selected:hover {
-  transform: scale(1.04);
+.wanted-card:hover::after {
+  filter: var(--filter);
 }
-
-/* Overlay med dynamisk indhold */
 
 .wanted-card-overlay {
   position: absolute;
@@ -94,8 +74,6 @@
   padding-top: 20%;
 }
 
-/* Produkt-billede */
-
 .wanted-card-image-wrapper {
   position: absolute;
   inset: 0;
@@ -115,15 +93,13 @@
   pointer-events: none;
 }
 
-/* Pris */
-
 .wanted-card-price {
   position: absolute;
   bottom: -5%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
-  background-image: url(../public/img/pricecard.svg);
+  background-image: url("/img/pricecard.svg");
   background-repeat: no-repeat;
   background-size: contain;
   color: var(--white);
@@ -153,14 +129,13 @@
   letter-spacing: 0.06em;
   white-space: nowrap;
   rotate: +5deg;
-  
 }
 
 .wanted-card-price-hover::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(../public/img/pricecard.svg);
+  background-image: url("/img/pricecard.svg");
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -182,11 +157,75 @@
   filter: var(--filter);
 }
 
-/* Responsive */
+/* ── Arrow buttons ── */
+
+.card-slider-btn {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid var(--orange);
+  background: transparent;
+  color: var(--orange);
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.card-slider-btn:hover {
+  background: var(--orange);
+  color: var(--black);
+  transform: scale(1.1);
+}
+
+.card-slider-arrow-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.card-slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.card-slider-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--orange);
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.card-slider-dot--active {
+  background: var(--orange);
+  transform: scale(1.3);
+}
 
 @media (max-width: 768px) {
-  .wanted-hero-cards {
-    flex-direction: column;
-    align-items: center;
+  .card-slider-wrapper {
+    gap: 12px;
+  }
+
+  .card-slider-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .card-slider-arrow-icon {
+    width: 18px;
+    height: 18px;
   }
 }
