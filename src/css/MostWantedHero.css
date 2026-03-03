@@ -18,7 +18,7 @@
   font-family: "bronco", serif;
   font-size: 80px;
   font-weight: 900;
-  color: #e8e4de;
+  color: var(--white);
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
@@ -26,7 +26,7 @@
 }
 
 .wanted-hero-accent {
-  color: #f97316;
+  color: var(--orange);
 }
 
 .wanted-hero-cards {
@@ -87,7 +87,7 @@
   font-family: "nashville", monospace;
   font-size: 30px;
   font-weight: 700;
-  color: #393939;
+  color: var(--black);
   letter-spacing: 0.2em;
   text-transform: uppercase;
   margin: 0;
@@ -126,7 +126,7 @@
   background-image: url(../public/img/pricecard.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  color: #fff;
+  color: var(--white);
   padding: 20px 60px 55px 60px;
   text-align: center;
   font-family: "bronco", monospace;
@@ -144,7 +144,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
-  color: #fff;
+  color: var(--white);
   padding: 20px 60px 55px 60px;
   text-align: center;
   font-family: "bronco", monospace;
@@ -175,13 +175,11 @@
 }
 
 .wanted-card:hover .wanted-card-price-hover::before {
-  filter: invert(52%) sepia(96%) saturate(600%) hue-rotate(352deg)
-    brightness(103%) contrast(97%);
+  filter: var(--filter);
 }
 
 .wanted-card:hover::after {
-  filter: invert(52%) sepia(96%) saturate(600%) hue-rotate(352deg)
-    brightness(103%) contrast(97%);
+  filter: var(--filter);
 }
 
 /* Responsive */

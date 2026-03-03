@@ -38,7 +38,7 @@
   font-family: var(--subheadline);
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -46,7 +46,7 @@
 }
 
 .hero-nav a:hover {
-  color: #f97316;
+  color: var(--orange);
 }
 
 /* Centered label */

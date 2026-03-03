@@ -17,7 +17,10 @@
  --white: #E6E6E6; 
  --headline: font-family: "bronco", serif;
 --subheadline: font-family: "inter", sans-serif;
+--filter: invert(44%) sepia(97%) saturate(500%) hue-rotate(360deg)
+    brightness(97%) contrast(98%);
 }
+  
 
 body {
   margin: 0;
