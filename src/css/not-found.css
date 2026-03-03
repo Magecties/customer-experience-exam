@@ -1,17 +1,17 @@
 /* 404 */
 .not-found-page {
-  background-color: white;
+  background-color: var(--white);
   min-height: 100vh;
   position: relative;
 }
 
 .not-found-link {
   position: absolute;
-  bottom: 9%;
+  bottom: 37%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
-  color: #fff;
+  color: var(--white);
   padding: 20px 60px 55px 60px;
   text-align: center;
   font-family: "bronco", monospace;
@@ -34,8 +34,7 @@
 }
 
 .not-found-link:hover::before {
-  filter: invert(52%) sepia(96%) saturate(600%) hue-rotate(352deg)
-    brightness(103%) contrast(97%);
+  filter: var(--filter);
 }
 
 .not-found {
@@ -53,7 +52,7 @@
 }
 
 .not-found-header {
-  color: #1F1F1F;
+  color: var(--black);
   padding: 2rem 1rem;
   text-align: center;
 }
