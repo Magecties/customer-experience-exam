@@ -1,5 +1,6 @@
 .ticker-wrap {
-  background: var(--grey);
+    /*kan ikke finde ud af hvad der ser bedst ud, med img eller ingen eller --black*/
+  background-image: url("../public/img/navbar.svg");
   padding: 0.8rem 0;
   overflow: hidden;
   white-space: nowrap;

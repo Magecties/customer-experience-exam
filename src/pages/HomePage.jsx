@@ -20,6 +20,7 @@ const CATEGORIES = [
 export default function HomePage() {
   return (
     <div className="home-page">
+      <Ticker />
       <section className="hero-section">
         <NavbarHero />
         <div className="hero-content">
@@ -28,8 +29,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      
-      <Ticker />
+
       <div className="category-grid">
         {CATEGORIES.map((cat) => (
           <div className="category-card" key={cat.label}>
