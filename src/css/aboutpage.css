@@ -23,3 +23,9 @@
   width: 300px;
   height: auto;
 }
+
+.about-page {
+font-family: var(--headline);
+color: var(--white);
+
+}
