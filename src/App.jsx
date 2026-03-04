@@ -10,10 +10,12 @@ import ProductPage from "./pages/ProductPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import FAQPage from "./pages/FAQPage";
 import ReturnPage from "./pages/ReturnPage";
+import NewsletterPopup from "./components/NewsLetterPopup";
 
 export default function App() {
   return (
     <>
+      <NewsletterPopup />
       <Ticker />
       <Navbar />
       <Routes>
