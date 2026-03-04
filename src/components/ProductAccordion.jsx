@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../css/ProductAccordion.css";
 
 export default function ProductAccordion({ sections }) {
   const [open, setOpen] = useState(null);

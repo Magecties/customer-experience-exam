@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router";
 import Navbar from "./components/Navbar";
 import Ticker from "./components/Ticker";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";

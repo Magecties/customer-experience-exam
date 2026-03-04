@@ -2,6 +2,7 @@ import { useState } from "react";
 import ColorSelector from "./ColorSelector";
 import SizeSelector from "./SizeSelector";
 import ProductAccordion from "./ProductAccordion";
+import "../css/ProductSidebar.css";
 
 export default function ProductSidebar({ product }) {
   const [selectedColor, setSelectedColor] = useState(product.colors?.[0] ?? null);

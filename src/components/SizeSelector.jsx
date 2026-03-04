@@ -1,3 +1,5 @@
+import "../css/SizeSelector.css";
+
 export default function SizeSelector({ sizes, selected, onSelect }) {
   return (
     <div className="size-selector">
