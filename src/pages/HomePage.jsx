@@ -35,7 +35,6 @@ export default function HomePage() {
             <span className="category-label">{cat.label}</span>
           </div>
         ))}
-        
       </div>
       <Footer />
     </div>
