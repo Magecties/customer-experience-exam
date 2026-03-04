@@ -3,7 +3,7 @@ import "../css/aboutpage.css";
 export default function AboutPage() {
   return (
     <>
-      <body className="about-page">
+      <div className="about-page">
         <header>
           <h1 className="about-header">About us</h1>
         </header>
@@ -34,11 +34,11 @@ export default function AboutPage() {
 
           <img
             className="about-image"
-            src="../public/img/vindheks.svg"
+            src="../public/img/wanted-logo.svg"
             alt="About us image"
           ></img>
         </main>
-      </body>
+      </div>
     </>
   );
 }

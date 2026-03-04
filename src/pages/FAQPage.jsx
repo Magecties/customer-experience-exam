@@ -33,7 +33,7 @@ export default function FAQPage() {
 
   return (
     <>
-      <body className="faq-page">
+      <div className="faq-page">
         <header>
           <h1 className="faq-header">FREQUENTLY ASKED QUESTIONS</h1>
         </header>
@@ -56,7 +56,7 @@ export default function FAQPage() {
             ))}
           </div>
         </main>
-      </body>
+      </div>
     </>
   );
 }
