@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router";
 import Navbar from "./components/Navbar";
+import Ticker from "./components/Ticker";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
@@ -15,6 +16,7 @@ import ReturnPage from "./pages/ReturnPage";
 export default function App() {
   return (
     <>
+      <Ticker />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />

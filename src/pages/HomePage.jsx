@@ -1,6 +1,5 @@
 import "../css/HomePage.css";
 import NavbarHero from "../components/NavbarHero";
-import Ticker from "../components/Ticker";
 
 const CATEGORIES = [
   { label: "All Items", image: "../public/home-img/1.svg" },
@@ -20,7 +19,6 @@ const CATEGORIES = [
 export default function HomePage() {
   return (
     <div className="home-page">
-      <Ticker />
       <section className="hero-section">
         <NavbarHero />
         <div className="hero-content">
