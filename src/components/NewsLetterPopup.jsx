@@ -16,33 +16,50 @@ export default function NewsletterPopup() {
   return (
     <div className="newsletter-overlay">
       <div className="newsletter-modal">
-        <button className="newsletter-close" onClick={() => setIsOpen(false)}>
-          ✕
-        </button>
+        <button className="newsletter-close" onClick={() => setIsOpen(false)}>✕</button>
 
-        {submitted ? (
-          <p className="newsletter-success">You're now signed up!</p>
-        ) : (
-          <>
-            <h2 className="newsletter-title">Stay in the loop</h2>
-            <p className="newsletter-subtitle">
-              Subscribe to our newsletter for exclusive drops and offers.
-            </p>
-            <form className="newsletter-form" onSubmit={handleSubmit}>
-              <input
-                type="email"
-                placeholder="Enter your email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                className="newsletter-input"
-              />
-              <button type="submit" className="newsletter-btn">
-                Sign me up
+        <div className="newsletter-left">
+          {submitted ? (
+            <p className="newsletter-success">You're now signed up!</p>
+          ) : (
+            <>
+              <h2 className="newsletter-title">
+                Want a <span className="newsletter-highlight">10%</span>{" "}
+                discount?
+              </h2>
+              <p className="newsletter-subtitle">
+                Sign up to get exclusive discounts, early access to collections,
+                and much more.
+              </p>
+              <p className="newsletter-question">
+                Where would you like to receive your code?
+              </p>
+              <form className="newsletter-form" onSubmit={handleSubmit}>
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  className="newsletter-input"
+                />
+                <button type="submit" className="newsletter-btn">
+                  Send 10% off
+                </button>
+              </form>
+              <button
+                className="newsletter-dismiss"
+                onClick={() => setIsOpen(false)}
+              >
+                No thanks, I hate discounts
               </button>
-            </form>
-          </>
-        )}
+            </>
+          )}
+        </div>
+
+        <div className="newsletter-right">
+          <img src="/img/NewsLetterBillede.svg" alt="Newsletter visual" />
+        </div>
       </div>
     </div>
   );
