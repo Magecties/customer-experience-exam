@@ -1,4 +1,4 @@
-import "../css/ProductGallery.css";
+import "../../css/ProductGallery.css";
 
 export default function ProductGallery({ images }) {
   return (
@@ -9,4 +9,3 @@ export default function ProductGallery({ images }) {
     </div>
   );
 }
-

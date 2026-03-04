@@ -1,11 +1,13 @@
-import "../css/SizeSelector.css";
+import "../../css/SizeSelector.css";
 
 export default function SizeSelector({ sizes, selected, onSelect }) {
   return (
     <div className="size-selector">
-      <p>SIZE: <span>{selected}</span></p>
+      <p>
+        SIZE: <span>{selected}</span>
+      </p>
       <div className="size-buttons">
-        {sizes.map(size => (
+        {sizes.map((size) => (
           <button
             key={size}
             className={`size-btn ${selected === size ? "active" : ""}`}

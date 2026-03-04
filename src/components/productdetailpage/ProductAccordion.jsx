@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../css/ProductAccordion.css";
+import "../../css/ProductAccordion.css";
 
 export default function ProductAccordion({ sections }) {
   const [open, setOpen] = useState(null);
@@ -14,9 +14,7 @@ export default function ProductAccordion({ sections }) {
           >
             {title} <span>{open === title ? "›" : "‹"}</span>
           </button>
-          {open === title && (
-            <p className="accordion-content">{content}</p>
-          )}
+          {open === title && <p className="accordion-content">{content}</p>}
         </div>
       ))}
     </div>

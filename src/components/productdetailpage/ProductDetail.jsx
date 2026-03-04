@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import ProductGallery from "./ProductGallery";
 import ProductSidebar from "./ProductSidebar";
-import "../css/ProductDetail.css";
+import "../../css/ProductDetail.css";
 
 export default function ProductDetail() {
   const { id } = useParams();
