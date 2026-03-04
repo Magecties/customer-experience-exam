@@ -16,11 +16,16 @@ export default function NewsletterPopup() {
   return (
     <div className="newsletter-overlay">
       <div className="newsletter-modal">
-        <button className="newsletter-close" onClick={() => setIsOpen(false)}>✕</button>
+        <button className="newsletter-close" onClick={() => setIsOpen(false)}>
+          ✕
+        </button>
 
         <div className="newsletter-left">
           {submitted ? (
-            <p className="newsletter-success">You're now signed up!</p>
+            <p className="newsletter-success">
+              You're now signed up!{" "}
+              <b>You'll receive the discount on your mail!</b>
+            </p>
           ) : (
             <>
               <h2 className="newsletter-title">
