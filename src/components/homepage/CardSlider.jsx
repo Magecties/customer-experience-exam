@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../css/CardSlider.css";
+import "../../css/CardSlider.css";
 
 function CardSlider() {
   const [products, setProducts] = useState([]);

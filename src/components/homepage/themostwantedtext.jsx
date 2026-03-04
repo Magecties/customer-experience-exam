@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/themostwantedtext.css";
+import "../../css/themostwantedtext.css";
 
 function TheMostWantedText() {
   return (

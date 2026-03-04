@@ -1,7 +1,7 @@
 import "../css/HomePage.css";
-import NavbarHero from "../components/NavbarHero";
-import TheMostWantedText from "../components/themostwantedtext";
-import CardSlider from "../components/CardSlider";
+import NavbarHero from "../components/homepage/NavbarHero";
+import TheMostWantedText from "../components/homepage/themostwantedtext";
+import CardSlider from "../components/homepage/CardSlider";
 
 const CATEGORIES = [
   { label: "All Items", image: "../public/home-img/1.svg" },

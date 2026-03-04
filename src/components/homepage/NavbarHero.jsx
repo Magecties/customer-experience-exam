@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import "../css/NavbarHero.css";
+import "../../css/NavbarHero.css";
 
 export default function NavbarHero() {
   return (

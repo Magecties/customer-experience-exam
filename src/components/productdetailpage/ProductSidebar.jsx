@@ -4,7 +4,9 @@ import SizeSelector from "./SizeSelector";
 import ProductAccordion from "./ProductAccordion";
 
 export default function ProductSidebar({ product }) {
-  const [selectedColor, setSelectedColor] = useState(product.colors?.[0] ?? null);
+  const [selectedColor, setSelectedColor] = useState(
+    product.colors?.[0] ?? null,
+  );
   const [selectedSize, setSelectedSize] = useState("XS");
 
   return (
@@ -26,12 +28,14 @@ export default function ProductSidebar({ product }) {
 
       <button className="add-to-cart">ADD TO CART</button>
 
-      <ProductAccordion sections={[
-        { title: "Description", content: product.description },
-        { title: "Materials", content: product.materials },
-        { title: "Size Guide", content: product.sizeGuide },
-        { title: "Shipping", content: product.shipping },
-      ]} />
+      <ProductAccordion
+        sections={[
+          { title: "Description", content: product.description },
+          { title: "Materials", content: product.materials },
+          { title: "Size Guide", content: product.sizeGuide },
+          { title: "Shipping", content: product.shipping },
+        ]}
+      />
     </div>
   );
 }

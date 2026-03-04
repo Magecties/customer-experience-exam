@@ -6,8 +6,6 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import Product from "./components/Product";
-import ProductGrid from "./components/Productgrid";
 import ProductPage from "./pages/ProductPage";
 import FAQPage from "./pages/FAQPage";
 import ReturnPage from "./pages/ReturnPage";

@@ -9,7 +9,8 @@ export default function ProductDetail() {
 
   useEffect(() => {
     async function fetchProduct() {
-      const url = "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products.json";
+      const url =
+        "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products.json";
       const response = await fetch(url);
       const data = await response.json();
       const found = data.find((p) => p.id === Number(id));
