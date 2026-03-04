@@ -122,7 +122,6 @@
   text-transform: uppercase;
 }
 
-/* RIGHT PANEL */
 .newsletter-right {
   width: 380px;
   flex-shrink: 0;
