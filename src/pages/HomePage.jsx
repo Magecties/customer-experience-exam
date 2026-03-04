@@ -4,7 +4,6 @@ import Ticker from "../components/Ticker";
 import CardSlider from "../components/CardSlider";
 import TheMostWantedText from "../components/themostwantedtext";
 
-
 const CATEGORIES = [
   { label: "All Items", image: "../public/home-img/1.svg" },
   { label: "Tops", image: "../public/home-img/2.svg" },
@@ -33,8 +32,8 @@ export default function HomePage() {
         </div>
       </section>
       <TheMostWantedText />
-        <CardSlider />
-      
+      <CardSlider />
+
       <div className="category-grid">
         {CATEGORIES.map((cat) => (
           <div className="category-card" key={cat.label}>
