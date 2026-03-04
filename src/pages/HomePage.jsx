@@ -1,6 +1,7 @@
 import "../css/HomePage.css";
 import NavbarHero from "../components/NavbarHero";
-import Ticker from "../components/Ticker";
+import TheMostWantedText from "../components/themostwantedtext";
+import CardSlider from "../components/CardSlider";
 
 const CATEGORIES = [
   { label: "All Items", image: "../public/home-img/1.svg" },

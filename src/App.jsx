@@ -9,7 +9,6 @@ import NotFoundPage from "./pages/NotFoundPage";
 import Product from "./components/Product";
 import ProductGrid from "./components/Productgrid";
 import ProductPage from "./pages/ProductPage";
-import MostWantedPage from "./pages/MostWantedPage";
 import FAQPage from "./pages/FAQPage";
 import ReturnPage from "./pages/ReturnPage";
 
@@ -23,7 +22,6 @@ export default function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/products" element={<ProductPage />} />
-        <Route path="/most-wanted" element={<MostWantedPage />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/return" element={<ReturnPage />} />
         <Route path="*" element={<NotFoundPage />} />
@@ -32,4 +30,3 @@ export default function App() {
     </>
   );
 }
-
