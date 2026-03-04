@@ -1,3 +1,5 @@
+import "../css/ProductGallery.css";
+
 export default function ProductGallery({ images }) {
   return (
     <div className="product-gallery">
