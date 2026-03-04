@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
         <div className="footer-column">
           <span className="footer-heading">Brand</span>
-          <NavLink to="/most-wanted">About Us</NavLink>
+          <NavLink to="/about">About Us</NavLink>
         </div>
 
         <div className="footer-column">
