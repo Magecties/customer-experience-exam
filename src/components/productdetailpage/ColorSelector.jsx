@@ -1,3 +1,5 @@
+import "../css/ColorSelector.css";
+
 export default function ColorSelector({ colors, selected, onSelect }) {
   if (!colors || colors.length === 0) return null;
 
@@ -16,4 +18,4 @@ export default function ColorSelector({ colors, selected, onSelect }) {
       </div>
     </div>
   );
-}
+} 
