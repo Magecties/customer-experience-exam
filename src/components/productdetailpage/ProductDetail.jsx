@@ -24,7 +24,7 @@ export default function ProductDetail() {
 
   return (
     <article className="product-detail">
-      <ProductGallery images={[product.image]} title={product.title} />
+      <ProductGallery images={[product.image, product.imageHover]} title={product.title} />
       <ProductSidebar product={product} />
     </article>
   );
