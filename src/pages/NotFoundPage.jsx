@@ -7,7 +7,7 @@ export default function NotFoundPage() {
       <header className="not-found-header">
         <img
           className="not-found-image"
-          src="../public/img/vindheks.svg"
+          src="/img/vindheks.svg"
           alt="Not Found"
         />
         <h1 className="not-found-title">404 - Page Not Found</h1>

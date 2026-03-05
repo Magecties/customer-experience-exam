@@ -7,7 +7,7 @@
   position: relative;
   width: 100%;
   min-height: 480px;
-  background-image: url("../img/hero.svg");
+  background-image: url("/img/hero.svg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -73,7 +73,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../public/img/HeroCTA-stroke.svg");
+  background-image: url("/img/HeroCTA-stroke.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   pointer-events: none;

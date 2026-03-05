@@ -1,7 +1,7 @@
 .footer-wrapper {
   display: flex;
   flex-direction: column;
-   background-image: url("../public/img/footer-img.svg");
+   background-image: url("/img/footer-img.svg");
    background-position: 50% 45%;
    background-size: 80%;
    position: relative;
