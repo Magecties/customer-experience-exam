@@ -1,10 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../css/NewsletterPopup.css";
 
 export default function NewsletterPopup() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsOpen(true), 5000);
+    return () => clearTimeout(timer);
+  }, []);
 
   if (!isOpen) return null;
 
