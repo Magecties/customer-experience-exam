@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router";
 import Product from "../productdetailpage/Product";
 import FilterDrawer from "./filter";
 import "../../css/ProductPage.css";
@@ -25,6 +26,16 @@ export default function ProductGrid() {
   return (
     <>
       <div className="filter-bar">
+        <nav className="cat-nav">
+          <NavLink to="/products" end>
+            All Items
+          </NavLink>
+          <NavLink to="/tops">Tops</NavLink>
+          <NavLink to="/bottoms">Bottoms</NavLink>
+          <NavLink to="/footwear">Footwear</NavLink>
+          <NavLink to="/accessories">Accessories</NavLink>
+          <NavLink to="/new-arrivals">New Arrivals</NavLink>
+        </nav>
         <button
           className="open-filter-button"
           type="button"
@@ -32,7 +43,7 @@ export default function ProductGrid() {
           aria-controls="filter-drawer"
           aria-expanded={isFilterMenuOpen}
         >
-          Filters
+          Filters &#9776;
         </button>
       </div>
 

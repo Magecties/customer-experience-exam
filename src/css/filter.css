@@ -2,24 +2,57 @@
 .filter-bar {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 16px 0;
+  border-bottom: 1px solid #333;
+  margin-bottom: 24px;
+}
+
+.cat-nav {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.cat-nav a {
+  font-family: var(--subheadline);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: color 0.2s ease;
+}
+
+.cat-nav a:hover {
+  color: var(--orange);
+}
+
+.cat-nav a.active {
+  color: var(--orange);
 }
 
 .open-filter-button {
   background: none;
-  border: 1px solid #e8e0d5;
-  color: #e8e0d5;
-  padding: 10px 24px;
-  font-size: 0.9rem;
-  letter-spacing: 2px;
+  border: none;
+  color: var(--white);
+  padding: 0;
+  font-family: var(--subheadline);
+  font-size: 16px;
+  font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0.08em;
   cursor: pointer;
-  font-family: Georgia, serif;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  transition: color 0.2s ease;
 }
 
 .open-filter-button:hover {
-  background: #3a3a3a;
+  color: var(--orange);
 }
 
 /* ── Overlay ──────────────────────────────────────── */
