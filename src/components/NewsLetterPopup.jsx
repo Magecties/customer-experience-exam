@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../css/NewsletterPopup.css";
+import "../css/NewsLetterPopup.css";
 
 export default function NewsletterPopup() {
   const [isOpen, setIsOpen] = useState(false);
