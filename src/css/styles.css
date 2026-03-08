@@ -35,4 +35,25 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+body.light-mode {
+  background-color: var(--white);
+  background-image: none;
+  color: var(--black);
+}
+
+/* lavet da normal body ikke kunne */
+body.light-mode .about-page,
+body.light-mode .faq-page,
+body.light-mode .faq-question,
+body.light-mode .faq-answer,
+body.light-mode .product-h1,
+body.light-mode .result-count,
+body.light-mode .cat-nav a,
+body.light-mode .open-filter-button {
+  color: var(--black);
 }
