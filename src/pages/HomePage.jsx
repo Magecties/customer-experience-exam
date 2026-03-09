@@ -15,6 +15,7 @@ export default function HomePage() {
       <HeroImage text="New Arrivals" image={MainHero} />
       <TheMostWantedText />
       <CardSlider />
+      <ProductCarousel />
       <CategoryCardTop />
       <ProductCarousel />
       <CategoryCardBot />
