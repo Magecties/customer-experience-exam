@@ -4,17 +4,17 @@ import TheMostWantedText from "../components/homepage/themostwantedtext";
 import CardSlider from "../components/homepage/CardSlider";
 
 const CATEGORIES = [
-  { label: "All Items", image: "../public/home-img/1.svg" },
-  { label: "Tops", image: "../public/home-img/2.svg" },
-  { label: "Bottoms", image: "../public/home-img/3.svg" },
-  { label: "Footwear", image: "../public/home-img/4.svg" },
+  { label: "All Items", image: "/home-img/1.svg" },
+  { label: "Tops", image: "/home-img/2.svg" },
+  { label: "Bottoms", image: "/home-img/3.svg" },
+  { label: "Footwear", image: "/home-img/4.svg" },
   {
     label: "Accessories",
-    image: "../public/home-img/5.svg",
+    image: "/home-img/5.svg",
   },
   {
     label: "New Arrivals",
-    image: "../public/home-img/6.svg",
+    image: "/home-img/6.svg",
   },
 ];
 
