@@ -1,0 +1,53 @@
+/* ─── Product Carousel ────────────────────────────────────────────────────── */
+
+.pc-section {
+  padding: 2rem 0 2rem 2rem;
+  overflow: hidden;
+}
+
+.pc-strip {
+  display: flex;
+  gap: 16px;
+  /* no flex-wrap so it overflows to the right */
+}
+
+.pc-card {
+  flex: 0 0 280px;
+  background-color: #3a3a3a;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.pc-card:hover {
+  transform: translateY(-4px);
+}
+
+.pc-card-img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  background-color: #d6d6d6;
+}
+
+.pc-card-info {
+  padding: 12px 14px;
+  background-color: #3a3a3a;
+}
+
+.pc-card-title {
+  font-family: var(--headline);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #f0f0f0;
+  margin: 0 0 4px 0;
+}
+
+.pc-card-price {
+  font-family: var(--headline);
+  font-size: 0.85rem;
+  color: #c0c0c0;
+  margin: 0;
+  font-weight: 400;
+}
