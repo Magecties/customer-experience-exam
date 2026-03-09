@@ -28,7 +28,7 @@
   max-width: 420px;
   min-width: 260px;
   aspect-ratio: 437 / 619;
-  background-image: url("/img/WantedCard.svg");
+  background-image: url("../img/WantedCard.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: visible;
@@ -43,7 +43,7 @@
   content: "";
   position: absolute;
   inset: -5px;
-  background-image: url("/img/wantedcard-stroke.svg");
+  background-image: url("../img/wantedcard-stroke.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -99,7 +99,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
-  background-image: url("/img/pricecard.svg");
+  background-image: url("../img/pricecard.svg");
   background-repeat: no-repeat;
   background-size: contain;
   color: var(--white);
@@ -135,7 +135,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("/img/pricecard.svg");
+  background-image: url("../img/pricecard.svg");
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;

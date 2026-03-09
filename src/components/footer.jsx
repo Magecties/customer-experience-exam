@@ -1,5 +1,9 @@
 import { NavLink } from "react-router";
 import "../css/Footer.css";
+import facebookIcon from "../img/facebook-icon-socials.svg";
+import instagramIcon from "../img/instagram-icon-socials.svg";
+import tiktokIcon from "../img/tiktok-icon-socials.svg";
+import wantedLogo from "../img/wanted-logo.svg";
 
 export default function Footer() {
   return (
@@ -42,17 +46,17 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="footer-socials">
           <a href="#">
-            <img src="/img/facebook-icon-socials.svg" alt="Facebook" />
+            <img src={facebookIcon} alt="Facebook" />
           </a>
           <a href="#">
-            <img src="/img/instagram-icon-socials.svg" alt="Instagram" />
+            <img src={instagramIcon} alt="Instagram" />
           </a>
           <a href="#">
-            <img src="/img/tiktok-icon-socials.svg" alt="Tiktok" />
+            <img src={tiktokIcon} alt="Tiktok" />
           </a>
         </div>
         <span>© 2026 - Wanted Archives</span>
-        <img src="/img/wanted-logo.svg" alt="Tiktok" />
+        <img src={wantedLogo} alt="Tiktok" />
       </div>
     </div>
   );

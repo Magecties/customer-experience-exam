@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../css/faqpage.css";
+import arrowIcon from "../img/arrow.svg";
 
 const faqs = [
   {
@@ -44,7 +45,7 @@ export default function FAQPage() {
                 <h2 className="faq-question" onClick={() => toggle(index)}>
                   {item.question}
                   <img
-                    src="/img/arrow.svg"
+                    src={arrowIcon}
                     alt=""
                     className={`faq-arrow${openIndex === index ? " faq-arrow--open" : ""}`}
                   />

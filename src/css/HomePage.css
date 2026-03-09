@@ -33,7 +33,7 @@
   content: "";
   position: absolute;
   inset: -5px;
-  background-image: url("/img/homecard-stroke.svg");
+  background-image: url("../img/homecard-stroke.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -75,14 +75,14 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("/img/pricecard.svg");
+  background-image: url("../img/pricecard.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: -1;
 }
 
 .category-card:hover .category-label::before {
-  filter: var(--filter)
+  filter: var(--filter);
 }
 
 .category-card:hover::after {

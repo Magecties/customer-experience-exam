@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "../css/NewsLetterPopup.css";
+import newsletterImage from "../img/NewsLetterBillede.svg";
 
 export default function NewsletterPopup() {
   const [isOpen, setIsOpen] = useState(false);
@@ -68,7 +69,7 @@ export default function NewsletterPopup() {
         </div>
 
         <div className="newsletter-right">
-          <img src="/img/NewsLetterBillede.svg" alt="Newsletter visual" />
+          <img src={newsletterImage} alt="Newsletter visual" />
         </div>
       </div>
     </div>

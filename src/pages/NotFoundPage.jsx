@@ -1,15 +1,12 @@
 import { Link } from "react-router";
 import "../css/not-found.css";
+import vindheksIcon from "../img/vindheks.svg";
 
 export default function NotFoundPage() {
   return (
     <div className="not-found-page">
       <header className="not-found-header">
-        <img
-          className="not-found-image"
-          src="/img/vindheks.svg"
-          alt="Not Found"
-        />
+        <img className="not-found-image" src={vindheksIcon} alt="Not Found" />
         <h1 className="not-found-title">404 - Page Not Found</h1>
       </header>
       <main className="not-found">

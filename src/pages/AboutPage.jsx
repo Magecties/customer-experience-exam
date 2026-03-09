@@ -1,4 +1,5 @@
 import "../css/aboutpage.css";
+import wantedLogo from "../img/wanted-logo.svg";
 
 export default function AboutPage() {
   return (
@@ -34,7 +35,7 @@ export default function AboutPage() {
 
           <img
             className="about-image"
-            src="/img/wanted-logo.svg"
+            src={wantedLogo}
             alt="About us image"
           ></img>
         </main>
