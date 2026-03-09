@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router";
-import Product from "../productdetailpage/Product";
+import Product from "./Product";
 import FilterDrawer from "./filter";
 import "../../css/ProductPage.css";
 import "../../css/filter.css";
