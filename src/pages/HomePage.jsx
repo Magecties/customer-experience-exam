@@ -7,6 +7,7 @@ import CategoryCardBot from "../components/homepage/CategoryCardBot";
 import HeroImage from "../components/homepage/HeroImage";
 import MainHero from "../img/hero.svg";
 import LastChanceImg from "../img/lastchance.svg";
+import Ticker from "../components/Ticker";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <ProductCarousel />
       <CategoryCardBot />
       <ProductCarousel />
+      <Ticker />
       <HeroImage text="Last Chance" image={LastChanceImg} />
     </div>
   );

@@ -1,12 +1,13 @@
 import "../css/ticker.css";
 
 const items = [
-  "Free exchange",
-  "Free delivery on orders over $50",
-  "1-3 day delivery",
-  "Sustainable materials",
-  "Ethically made",
   "Most Wanted",
+  "Lost Boys Archives",
+  "Bareen",
+  "TwoJeys",
+  "Zuno Archives",
+  "Scuffers",
+  "Attode",
 ];
 
 export default function Ticker() {

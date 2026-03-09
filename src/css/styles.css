@@ -27,8 +27,8 @@ body {
   min-height: 100vh;
   line-height: 1.5;
   font-weight: 700;
-  color: #e0e0e0;
-  background-color: #1a1a1a;
+  color: var(--white);
+  background-color: var(--black);
   font-size: 25px;
   background-image: url("../img/bg-img.svg");
   background-size: cover;
@@ -54,6 +54,9 @@ body.light-mode .faq-answer,
 body.light-mode .product-h1,
 body.light-mode .result-count,
 body.light-mode .cat-nav a,
+body.light-mode .ticker-item {
+  color: var(--black);
+}
 body.light-mode .open-filter-button {
   color: var(--black);
 }
