@@ -22,13 +22,39 @@ export default function Navbar() {
       </div>
 
       <div className="nav-links">
-        <NavLink to="/" end className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
-        <NavLink to="/products" className={({ isActive }) => isActive ? "active" : ""}>Shop</NavLink>
-        <NavLink to="/events" className={({ isActive }) => isActive ? "active" : ""}>Events</NavLink>
-        <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About Us</NavLink>
+        <NavLink
+          to="/"
+          end
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/products"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
+          Shop
+        </NavLink>
+        <NavLink
+          to="/events"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
+          Events
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
+          About Us
+        </NavLink>
       </div>
 
       <div className="nav-icons">
+        <button
+          className="theme-toggle"
+          onClick={() => setIsLightMode((prev) => !prev)}
+          aria-label="Toggle light mode"
+        />
         <button className="nav-icon-btn" aria-label="Search">
           <img src={SearchIcon} alt="Search" />
         </button>
@@ -38,11 +64,6 @@ export default function Navbar() {
         <button className="nav-icon-btn" aria-label="Bag">
           <img src={BagIcon} alt="Bag" />
         </button>
-        <button
-          className="theme-toggle"
-          onClick={() => setIsLightMode((prev) => !prev)}
-          aria-label="Toggle light mode"
-        />
       </div>
     </nav>
   );
