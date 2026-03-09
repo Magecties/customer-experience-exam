@@ -1,5 +1,5 @@
 .main-nav {
-  background-image: url("/img/NavBar.svg");
+  background-image: url("../img/NavBar.svg");
   background-color: #1a1a1a;
   background-size: cover;
   background-position: center;
@@ -116,4 +116,3 @@ body.light-mode .theme-toggle::before {
   transform: translateX(22px);
   background: #fff;
 }
-
