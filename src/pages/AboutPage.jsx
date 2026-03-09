@@ -34,7 +34,7 @@ export default function AboutPage() {
 
           <img
             className="about-image"
-            src="../public/img/vindheks.svg"
+            src="../public/img/wanted-logo.svg"
             alt="About us image"
           ></img>
         </main>
