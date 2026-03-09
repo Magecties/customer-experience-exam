@@ -60,3 +60,6 @@ body.light-mode .ticker-item {
 body.light-mode .open-filter-button {
   color: var(--black);
 }
+body.light-mode .most-wanted-title {
+  color: var(--black);
+}
