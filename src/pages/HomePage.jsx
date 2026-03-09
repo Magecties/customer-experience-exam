@@ -1,6 +1,7 @@
 import "../css/HomePage.css";
 import TheMostWantedText from "../components/homepage/themostwantedtext";
 import CardSlider from "../components/homepage/CardSlider";
+import ProductCarousel from "../components/homepage/ProductCarousel";
 import CategoryCardTop from "../components/homepage/CategoryCardTop";
 import CategoryCardBot from "../components/homepage/CategoryCardBot";
 
@@ -15,6 +16,7 @@ export default function HomePage() {
         </div>
       </section>
       <TheMostWantedText />
+      <ProductCarousel />
       <CardSlider />
       <CategoryCardTop />
       <CategoryCardBot />
