@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../css/returnpage.css";
+import arrowIcon from "../img/arrow.svg";
 
 const faqs = [
   {
@@ -109,7 +110,7 @@ export default function ReturnPage() {
               <h3 className="return-question" onClick={() => toggle(index)}>
                 {item.question}
                 <img
-                  src="/img/arrow.svg"
+                  src={arrowIcon}
                   alt=""
                   className={`return-arrow${openIndex === index ? " return-arrow--open" : ""}`}
                 />

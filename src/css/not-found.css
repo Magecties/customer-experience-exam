@@ -27,7 +27,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(/img/pricecard.svg);
+  background-image: url(../img/pricecard.svg);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
