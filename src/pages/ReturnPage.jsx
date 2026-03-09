@@ -4,31 +4,38 @@ import "../css/returnpage.css";
 const faqs = [
   {
     question: "How do I return my order?",
-    answer: "Skriv dit svar her.",
+    answer:
+      "If you want to return an item, simply contact us at support@wantedarchives.com within 14 days of receiving your order. Make sure the item is unused and in its original condition. Once approved, we’ll send you the return instructions.",
   },
   {
     question: "When will I receive my order?",
-    answer: "Skriv dit svar her.",
+    answer:
+      "Orders are usually processed within 1–2 business days. Delivery typically takes 2–5 business days depending on your location. Once your order ships, you'll receive a tracking link so you can follow it all the way to your door.",
   },
   {
     question: "When will I receive my refund?",
-    answer: "Skriv dit svar her.",
+    answer:
+      "Once we receive and inspect your return, your refund will be processed within 3–5 business days. The amount will be returned to your original payment method.",
   },
   {
     question: "How do I return an order that I have previously exchanged?",
-    answer: "Skriv dit svar her.",
+    answer:
+      "Returns after an exchange follow the same process as normal returns. Just contact our support team and include your new order number, and we’ll guide you through the return.",
   },
   {
     question: "Can I return two orders in the same shipment?",
-    answer: "Skriv dit svar her.",
+    answer:
+      "Yes, you can return multiple orders in the same package. Just make sure to include the order numbers for each item inside the parcel so we can process the returns correctly.",
   },
   {
     question: "I have received a wrong order – what do I do?",
-    answer: "Skriv dit svar her.",
+    answer:
+      "If you received the wrong item, contact us at support@wantedarchives.com as soon as possible with your order number and a photo of the item. We’ll sort it out quickly and make sure you receive the correct piece.",
   },
   {
     question: "I have a claim — what should I do?",
-    answer: "Skriv dit svar her.",
+    answer:
+      "If your item is damaged or faulty, please contact our support team within 7 days of receiving your order. Include photos of the issue and your order number, and we’ll help you resolve it as fast as possible.",
   },
 ];
 
