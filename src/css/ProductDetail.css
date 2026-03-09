@@ -1,0 +1,7 @@
+.product-detail {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  min-height: 100vh;
+  background: #1a1a1a;
+  color: #e8e0d5;
+}

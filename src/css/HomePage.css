@@ -33,7 +33,7 @@
   content: "";
   position: absolute;
   inset: -5px;
-  background-image: url("../public/img/homecard-stroke.svg");
+  background-image: url("/img/homecard-stroke.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   pointer-events: none;
