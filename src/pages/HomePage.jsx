@@ -15,8 +15,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <TheMostWantedText />
+
       <ProductCarousel />
+      <TheMostWantedText />
       <CardSlider />
       <CategoryCardTop />
       <CategoryCardBot />
