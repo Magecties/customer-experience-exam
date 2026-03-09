@@ -40,7 +40,7 @@
   width: 100%;
   background-color: #3a3a3a;
   overflow: hidden;
-  font-family: var(--headline);
+  font-family: var(--subheadline);
 }
 
 .product-image {
@@ -59,9 +59,9 @@
 .product-title {
   font-size: 0.95rem;
   font-weight: 500;
-  color: #f0f0f0;
+  color: var(--white);
   margin: 0 0 4px 0;
-  font-family: var(--headline);
+  font-family: var(--subheadline);
 }
 
 .product-description {
@@ -70,7 +70,7 @@
 
 .product-price {
   font-size: 0.85rem;
-  color: #c0c0c0;
+  color: var(--white);
   margin: 0;
   font-weight: 400;
 }
