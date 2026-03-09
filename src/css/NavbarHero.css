@@ -3,16 +3,35 @@
   src: url(../fonts/BroncoPersonalUse.ttf) format("truetype");
 }
 
+.hero-content {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .hero-section {
   position: relative;
   width: 100%;
   min-height: 480px;
-  background-image: url("../img/hero.svg");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+
+.hero-section img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
 }
 
 .hero-section::after {
@@ -21,6 +40,7 @@
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
   pointer-events: none;
+  z-index: 1;
 }
 
 /* Nav links */

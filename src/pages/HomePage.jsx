@@ -3,21 +3,19 @@ import TheMostWantedText from "../components/homepage/themostwantedtext";
 import CardSlider from "../components/homepage/CardSlider";
 import CategoryCardTop from "../components/homepage/CategoryCardTop";
 import CategoryCardBot from "../components/homepage/CategoryCardBot";
+import HeroImage from "../components/homepage/HeroImage";
+import MainHero from "../img/hero.svg";
+import LastChanceImg from "../img/lastchance.svg";
 
 export default function HomePage() {
   return (
     <div className="home-page">
-      <section className="hero-section">
-        <div className="hero-content">
-          <div className="hero-label">
-            <span>New Arrivals</span>
-          </div>
-        </div>
-      </section>
+      <HeroImage text="New Arrivals" image={MainHero} />
       <TheMostWantedText />
       <CardSlider />
       <CategoryCardTop />
       <CategoryCardBot />
+      <HeroImage text="Last Chance" image={LastChanceImg} />
     </div>
   );
 }
