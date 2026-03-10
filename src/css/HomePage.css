@@ -11,14 +11,15 @@
 /* Category Grid */
 
 .category-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 360px);
-  gap: 42px;
-  padding: 24px;
-  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  padding: 1.5rem 8rem;
+  width: 100%;
+  box-sizing: border-box;
   margin: 0 auto;
   margin-bottom: 1rem;
-  justify-content: center;
 }
 
 .category-card {
@@ -153,7 +154,6 @@
   display: block;
   border-radius: 0px;
 }
-
 
 /* Responsive */
 
