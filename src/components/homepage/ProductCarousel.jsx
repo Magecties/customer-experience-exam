@@ -28,7 +28,7 @@ function ProductCarousel() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("/products.json")
+    fetch("https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/Magnusbranch/public/products.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
