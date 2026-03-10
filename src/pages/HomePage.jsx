@@ -8,6 +8,9 @@ import CategoryCard from "../components/homepage/CategoryCard";
 
 import MainHero from "../img/hero.svg";
 import LastChanceImg from "../img/last-chance.svg";
+import DualImageHero from "../components/homepage/DualImageHero";
+import EarlyAccess from "../img/Acces.svg";
+import OurCommunity from "../img/Community.svg";
 
 export default function HomePage() {
   return (
@@ -35,6 +38,12 @@ export default function HomePage() {
       />
       <ProductCarousel />
       <HeroImage text="Last Chance" image={LastChanceImg} />
+      <DualImageHero
+        label1="Our Community"
+        image1={OurCommunity}
+        label2="Early Access"
+        image2={EarlyAccess}
+      />
       <Ticker />
     </div>
   );
