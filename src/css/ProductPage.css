@@ -52,12 +52,12 @@
 }
 
 .product-info {
-  padding: 12px 14px;
+  padding: 8px 0;
   /* background-color: #b55959; */
 }
 
 .product-title {
-  font-size: 0.95rem;
+  font-size: 1.4rem;
   font-weight: 500;
   color: var(--white);
   margin: 0 0 4px 0;
@@ -69,7 +69,7 @@
 }
 
 .product-price {
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   color: var(--white);
   margin: 0;
   font-weight: 400;

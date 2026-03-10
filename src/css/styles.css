@@ -70,3 +70,18 @@ body.light-mode .product-title,
 body.light-mode .product-price {
   color: var(--black);
 }
+
+body.light-mode .drawer-header h2,
+body.light-mode .close-button,
+body.light-mode .filter-section-title {
+  color: var(--black);
+}
+
+body.light-mode .drawer {
+  background: var(--white);
+  color: var(--black);
+}
+
+body.light-mode .toggle-btn {
+  color: var(--black);
+}
