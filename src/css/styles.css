@@ -63,3 +63,10 @@ body.light-mode .open-filter-button {
 body.light-mode .most-wanted-title {
   color: var(--black);
 }
+
+body.light-mode .product-card,
+body.light-mode .product-info,
+body.light-mode .product-title,
+body.light-mode .product-price {
+  color: var(--black);
+}
