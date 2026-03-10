@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "../css/NewsLetterPopup.css";
-import newsletterImage from "../img/NewsLetterBillede.svg";
+import newsletterImage from "../img/news-letter-billede.svg";
 
 export default function NewsletterPopup() {
   const [isOpen, setIsOpen] = useState(false);

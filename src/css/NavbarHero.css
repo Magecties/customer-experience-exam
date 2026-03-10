@@ -93,7 +93,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../img/HeroCTA-stroke.svg");
+  background-image: url("../img/herocta-stroke.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -103,14 +103,11 @@
     background-color 0.2s ease;
 }
 
-
 .hero-label:hover::before {
- transform: scale(1.1);
- background-color: var(--orange); 
- background-image: none;
+  transform: scale(1.1);
+  background-color: var(--orange);
+  background-image: none;
 }
-
-
 
 .hero-label span {
   position: relative;
