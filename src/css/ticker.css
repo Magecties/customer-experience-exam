@@ -8,7 +8,7 @@
 
 .ticker {
   display: inline-flex;
-  gap: 3rem;
+  will-change: transform;
   animation: ticker 28s linear infinite;
 }
 
@@ -19,11 +19,19 @@
   text-transform: uppercase;
   opacity: 0.8;
   flex-shrink: 0;
+  margin-right: 3rem;
 }
 
 .ticker-dot {
   color: var(--orange);
   margin-right: 1rem;
+}
+
+.ticker-logo {
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+  opacity: 0.8;
 }
 
 @keyframes ticker {
