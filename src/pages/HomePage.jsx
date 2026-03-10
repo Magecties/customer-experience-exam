@@ -45,13 +45,13 @@ export default function HomePage() {
       />
       <ProductCarousel />
       <HeroImage text="Last Chance" image={LastChanceImg} />
+      <Ticker />
       <DualImageHero
         label1="Our Community"
         image1={OurCommunity}
         label2="Early Access"
         image2={EarlyAccess}
       />
-      <Ticker />
     </div>
   );
 }
