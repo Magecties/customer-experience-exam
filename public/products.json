@@ -5,12 +5,12 @@
     "price": 699,
     "description": "Heavy 400gsm fleece hoodie with bold front graphic print. Dropped shoulders and kangaroo pocket.",
     "category": "hoodies",
-    "image": "/src/products-img/lostboys-hoodie-front.jpg",
-    "imageHover": "/src/products-img/lostboys-hoodie-back.png",
+    "image": "/src/products-img/lostboys-hoodie-vibe.jpg",
+    "imageHover": "/src/products-img/lostboys-hoodie-front.jpg",
     "images": [
+      "/src/products-img/lostboys-hoodie-vibe.jpg",
       "/src/products-img/lostboys-hoodie-front.jpg",
-      "/src/products-img/lostboys-hoodie-back.png",
-      "/src/products-img/lostboys-hoodie-vibe.jpg"
+      "/src/products-img/lostboys-hoodie-back.png"
     ],
     "colors": ["Black", "Navy", "Grey"],
     "sizes": ["S", "M", "L", "XL"],
@@ -23,12 +23,12 @@
     "price": 899,
     "description": "Wide-leg cargo trousers with six utility pockets. 100% cotton twill in washed black.",
     "category": "pants",
-    "image": "/src/products-img/lostboys-pants-front.png",
-    "imageHover": "/src/products-img/lostboys-pants-back.png",
+    "image": "/src/products-img/lostboys-pants-vibe.jpg",
+    "imageHover": "/src/products-img/lostboys-pants-front.png",
     "images": [
+      "/src/products-img/lostboys-pants-vibe.jpg",
       "/src/products-img/lostboys-pants-front.png",
-      "/src/products-img/lostboys-pants-back.png",
-      "/src/products-img/lostboys-pants-vibe.jpg"
+      "/src/products-img/lostboys-pants-back.png"
     ],
     "colors": ["Black", "Khaki", "Olive"],
     "sizes": ["XS", "S", "M", "L"],
@@ -41,12 +41,12 @@
     "price": 1199,
     "description": "Vintage-washed oversized denim jacket with distressed detailing and custom back embroidery.",
     "category": "jackets",
-    "image": "/src/products-img/lostboys-jacket-front.jpg",
-    "imageHover": "/src/products-img/lostboys-jacket-back.jpg",
+    "image": "/src/products-img/lostboys-jacket-vibe.jpg",
+    "imageHover": "/src/products-img/lostboys-jacket-front.jpg",
     "images": [
+      "/src/products-img/lostboys-jacket-vibe.jpg",
       "/src/products-img/lostboys-jacket-front.jpg",
-      "/src/products-img/lostboys-jacket-back.jpg",
-      "/src/products-img/lostboys-jacket-vibe.jpg"
+      "/src/products-img/lostboys-jacket-back.jpg"
     ],
     "colors": ["Blue", "Black", "Lightblue"],
     "sizes": ["M", "L", "XL"],
@@ -59,12 +59,12 @@
     "price": 399,
     "description": "Essential heavyweight cotton tee with a clean box logo print on chest. Relaxed fit.",
     "category": "t-shirts",
-    "image": "/src/products-img/lostboys-tshirt-front.png",
-    "imageHover": "/src/products-img/lostboys-tshirt-back.png",
+    "image": "/src/products-img/lostboys-tshirt-vibe.jpg",
+    "imageHover": "/src/products-img/lostboys-tshirt-front.png",
     "images": [
+      "/src/products-img/lostboys-tshirt-vibe.jpg",
       "/src/products-img/lostboys-tshirt-front.png",
-      "/src/products-img/lostboys-tshirt-back.png",
-      "/src/products-img/lostboys-tshirt-vibe.jpg"
+      "/src/products-img/lostboys-tshirt-back.png"
     ],
     "colors": ["White", "Black", "Grey"],
     "sizes": ["XS", "S", "M", "L", "XL"],
@@ -77,12 +77,12 @@
     "price": 1099,
     "description": "Heavyweight 380gsm crewneck sweatshirt with oversized fit and embroidered chest logo.",
     "category": "hoodies",
-    "image": "/src/products-img/lostboys-crewneck-front.png",
-    "imageHover": "/src/products-img/lostboys-crewneck-back.png",
+    "image": "/src/products-img/lostboys-crewneck-vibe.jpg",
+    "imageHover": "/src/products-img/lostboys-crewneck-front.png",
     "images": [
+      "/src/products-img/lostboys-crewneck-vibe.jpg",
       "/src/products-img/lostboys-crewneck-front.png",
-      "/src/products-img/lostboys-crewneck-back.png",
-      "/src/products-img/lostboys-crewneck-vibe.jpg"
+      "/src/products-img/lostboys-crewneck-back.png"
     ],
     "colors": ["Black", "Navy", "Red"],
     "sizes": ["S", "L", "XL"],
@@ -95,12 +95,12 @@
     "price": 649,
     "description": "Baggy cut-off denim shorts with raw hem and faded wash. A warm-weather essential.",
     "category": "pants",
-    "image": "/src/products-img/lostboys-jorts-front.png",
-    "imageHover": "/src/products-img/lostboys-jorts-back.png",
+    "image": "/src/products-img/lostboys-jorts-vibe.jpg",
+    "imageHover": "/src/products-img/lostboys-jorts-front.png",
     "images": [
+      "/src/products-img/lostboys-jorts-vibe.jpg",
       "/src/products-img/lostboys-jorts-front.png",
-      "/src/products-img/lostboys-jorts-back.png",
-      "/src/products-img/lostboys-jorts-vibe.jpg"
+      "/src/products-img/lostboys-jorts-back.png"
     ],
     "colors": ["Black", "Grey", "Navy"],
     "sizes": ["XS", "S", "M"],
@@ -113,12 +113,12 @@
     "price": 1299,
     "description": "Sleek leather loafers with a chunky sole and embossed logo detail. Step up your fit.",
     "category": "footwear",
-    "image": "/src/products-img/lostboys-loafers-front.png",
-    "imageHover": "/src/products-img/lostboys-loafers-back.png",
+    "image": "/src/products-img/lostboys-loafers-vibe.jpg",
+    "imageHover": "/src/products-img/lostboys-loafers-front.png",
     "images": [
+      "/src/products-img/lostboys-loafers-vibe.jpg",
       "/src/products-img/lostboys-loafers-front.png",
-      "/src/products-img/lostboys-loafers-back.png",
-      "/src/products-img/lostboys-loafers-vibe.jpg"
+      "/src/products-img/lostboys-loafers-back.png"
     ],
     "colors": ["Black", "Brown"],
     "sizes": ["40", "41", "42", "43", "44"],
@@ -131,12 +131,12 @@
     "price": 1349,
     "description": "Relaxed wide-leg trousers with a high rise and clean front pleat. Tailored street style.",
     "category": "pants",
-    "image": "/src/products-img/lostboys-pants-2-front.png",
-    "imageHover": "/src/products-img/lostboys-pants-2-back.png",
+    "image": "/src/products-img/lostboys-pants-2-vibe.jpg",
+    "imageHover": "/src/products-img/lostboys-pants-2-front.png",
     "images": [
+      "/src/products-img/lostboys-pants-2-vibe.jpg",
       "/src/products-img/lostboys-pants-2-front.png",
-      "/src/products-img/lostboys-pants-2-back.png",
-      "/src/products-img/lostboys-pants-2-vibe.jpg"
+      "/src/products-img/lostboys-pants-2-back.png"
     ],
     "colors": ["Black", "Navy", "Red", "Teal"],
     "sizes": ["S", "M", "L", "XL"],
