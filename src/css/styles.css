@@ -54,7 +54,8 @@ body.light-mode .faq-answer,
 body.light-mode .product-h1,
 body.light-mode .result-count,
 body.light-mode .cat-nav a,
-body.light-mode .ticker-item {
+body.light-mode .ticker-item,
+body.light-mode .pc-card {
   color: var(--black);
 }
 body.light-mode .open-filter-button {
@@ -68,6 +69,11 @@ body.light-mode .product-card,
 body.light-mode .product-info,
 body.light-mode .product-title,
 body.light-mode .product-price {
+  color: var(--black);
+}
+
+body.light-mode .pc-card-title,
+body.light-mode .pc-card-price {
   color: var(--black);
 }
 
