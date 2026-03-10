@@ -6,7 +6,7 @@ import CategoryCardTop from "../components/homepage/CategoryCardTop";
 import CategoryCardBot from "../components/homepage/CategoryCardBot";
 import HeroImage from "../components/homepage/HeroImage";
 import MainHero from "../img/hero.svg";
-import LastChanceImg from "../img/lastchance.svg";
+import LastChanceImg from "../img/last-chance.svg";
 import Ticker from "../components/Ticker";
 
 export default function HomePage() {
