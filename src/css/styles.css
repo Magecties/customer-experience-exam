@@ -1,6 +1,6 @@
 @font-face {
   font-family: "nashville";
-  src: url(../fonts/Nashville.ttf) format("truetype");
+  src: url(../fonts/NASHVILL.TTF) format("truetype");
 }
 @font-face {
   font-family: "bronco";
@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: "inter";
-  src: url(../fonts/Inter-VariableFont_opsz.ttf) format("truetype");
+  src: url(../fonts/Inter-VariableFont_opsz,wght.ttf) format("truetype");
 }
 :root {
   --orange: #c46a2d;
