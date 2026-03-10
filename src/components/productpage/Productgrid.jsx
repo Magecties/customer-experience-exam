@@ -12,9 +12,7 @@ export default function ProductGrid() {
 
   useEffect(() => {
     async function fetchProducts() {
-      const url =
-        "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products.json";
-      const response = await fetch(url);
+      const response = await fetch("/products.json");
       const data = await response.json();
       setProducts(data);
     }
