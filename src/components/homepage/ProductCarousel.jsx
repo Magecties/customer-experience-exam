@@ -1,5 +1,28 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router";
 import "../../css/ProductCarousel.css";
+
+function CarouselCard({ product }) {
+  const [hovered, setHovered] = useState(false);
+
+  return (
+    <Link to={`/products/${product.id}`} style={{ textDecoration: "none", color: "inherit" }}>
+      <div className="pc-card">
+        <img
+          className="pc-card-img"
+          src={hovered ? product.imageHover : product.image}
+          alt={product.title}
+          onMouseEnter={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
+        />
+        <div className="pc-card-info">
+          <p className="pc-card-title">{product.title}</p>
+          <p className="pc-card-price">{product.price} DKK</p>
+        </div>
+      </div>
+    </Link>
+  );
+}
 
 function ProductCarousel() {
   const [products, setProducts] = useState([]);
@@ -17,17 +40,7 @@ function ProductCarousel() {
       <div className="pc-track">
         <div className="pc-strip">
           {products.map((product) => (
-            <div key={product.id} className="pc-card">
-              <img
-                className="pc-card-img"
-                src={product.image}
-                alt={product.title}
-              />
-              <div className="pc-card-info">
-                <p className="pc-card-title">{product.title}</p>
-                <p className="pc-card-price">{product.price} DKK</p>
-              </div>
-            </div>
+            <CarouselCard key={product.id} product={product} />
           ))}
         </div>
       </div>
