@@ -90,6 +90,71 @@
   filter: var(--filter);
 }
 
+.dual-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.dual-label {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(3deg);
+  z-index: 2;
+  width: 240px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "bronco", serif;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  transition: filter 0.2s ease;
+}
+
+.dual-label::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../img/pricecard.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.dual-label:hover::before {
+  filter: var(--filter);
+  color: var(--white);
+}
+
+.dual-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.dual-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.4s ease;
+  display: block;
+  border-radius: 0px;
+}
+
+
 /* Responsive */
 
 @media (max-width: 768px) {
