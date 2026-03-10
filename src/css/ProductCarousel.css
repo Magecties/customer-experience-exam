@@ -2,17 +2,16 @@
 
 .pc-section {
   padding: 2rem 0 2rem 2rem;
-  position: relative;
 }
 
 .pc-track {
   overflow-x: scroll;
-  scrollbar-width: none;       /* Firefox */
-  -ms-overflow-style: none;    /* IE/Edge */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .pc-track::-webkit-scrollbar {
-  display: none;               /* Chrome/Safari */
+  display: none;
 }
 
 .pc-strip {
@@ -20,57 +19,11 @@
   gap: 16px;
 }
 
-/* ── Arrow buttons ── */
-
-.pc-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  border: 2px solid var(--orange);
-  background: rgba(31, 31, 31, 0.85);
-  color: var(--orange);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition:
-    background 0.2s ease,
-    transform 0.2s ease;
-}
-
-.pc-arrow:hover {
-  background: var(--orange);
-  color: var(--black);
-  transform: translateY(-50%) scale(1.1);
-}
-
-.pc-arrow svg {
-  width: 24px;
-  height: 24px;
-}
-
-.pc-arrow--left {
-  left: 8px;
-}
-
-.pc-arrow--right {
-  right: 8px;
-}
-
 .pc-card {
   flex: 0 0 280px;
-  background-color: #3a3a3a;
   overflow: hidden;
   cursor: pointer;
-  transition: transform 0.25s ease;
-}
-
-.pc-card:hover {
-  transform: translateY(-4px);
+  font-family: var(--subheadline);
 }
 
 .pc-card-img {
@@ -83,21 +36,18 @@
 
 .pc-card-info {
   padding: 12px 14px;
-  background-color: #3a3a3a;
 }
 
 .pc-card-title {
-  font-family: var(--headline);
   font-size: 0.95rem;
   font-weight: 500;
-  color: #f0f0f0;
+  color: var(--white);
   margin: 0 0 4px 0;
 }
 
 .pc-card-price {
-  font-family: var(--headline);
   font-size: 0.85rem;
-  color: #c0c0c0;
+  color: var(--white);
   margin: 0;
   font-weight: 400;
 }

@@ -1,12 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../../css/ProductCarousel.css";
-
-const SCROLL_AMOUNT = 296; // card width (280) + gap (16)
 
 function ProductCarousel() {
   const [products, setProducts] = useState([]);
-  const [scrolled, setScrolled] = useState(false);
-  const trackRef = useRef(null);
 
   useEffect(() => {
     fetch("/products.json")
@@ -14,28 +10,11 @@ function ProductCarousel() {
       .then((data) => setProducts(data));
   }, []);
 
-  function scroll(dir) {
-    const track = trackRef.current;
-    if (!track) return;
-    track.scrollBy({ left: dir * SCROLL_AMOUNT, behavior: "smooth" });
-  }
-
-  function handleScroll() {
-    setScrolled(trackRef.current.scrollLeft > 0);
-  }
-
   if (products.length === 0) return null;
 
   return (
     <section className="pc-section">
-      {scrolled && (
-        <button className="pc-arrow pc-arrow--left" onClick={() => scroll(-1)}>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <polyline points="15 18 9 12 15 6" />
-          </svg>
-        </button>
-      )}
-      <div className="pc-track" ref={trackRef} onScroll={handleScroll}>
+      <div className="pc-track">
         <div className="pc-strip">
           {products.map((product) => (
             <div key={product.id} className="pc-card">
@@ -52,11 +31,6 @@ function ProductCarousel() {
           ))}
         </div>
       </div>
-      <button className="pc-arrow pc-arrow--right" onClick={() => scroll(1)}>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-          <polyline points="9 18 15 12 9 6" />
-        </svg>
-      </button>
     </section>
   );
 }
