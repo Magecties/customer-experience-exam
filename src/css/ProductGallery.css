@@ -11,7 +11,3 @@
   object-fit: cover;
   display: block;
 }
-
-.product-gallery img:last-child {
-  grid-column: span 2;
-}
