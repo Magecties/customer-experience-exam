@@ -8,7 +8,6 @@ import CategoryCard from "../components/homepage/CategoryCard";
 
 import MainHero from "../img/hero.svg";
 import LastChanceImg from "../img/last-chance.svg";
-import Ticker from "../components/Ticker";
 
 export default function HomePage() {
   return (
