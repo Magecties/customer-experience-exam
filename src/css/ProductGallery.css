@@ -12,6 +12,6 @@
   display: block;
 }
 
-.product-gallery img:first-child {
+.product-gallery img:last-child {
   grid-column: span 2;
 }
