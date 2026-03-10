@@ -18,20 +18,20 @@ export default function HomePage() {
       <ProductCarousel />
       <CategoryCard
         label1="All Items"
-        image1="../public/home-img/2.svg"
+        image1="https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/home-img/2.svg"
         label2="Sale"
-        image2="../public/home-img/3.svg"
+        image2="https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/home-img/3.svg"
         label3="New Arrivals"
-        image3="../public/home-img/6.svg"
+        image3="https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/home-img/6.svg"
       />
       <ProductCarousel />
       <CategoryCard
         label1="Clothing"
-        image1="../public/home-img/1.svg"
+        image1="https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/home-img/1.svg"
         label2="Footwear"
-        image2="../public/home-img/4.svg"
+        image2="https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/home-img/4.svg"
         label3="Accessories"
-        image3="../public/home-img/5.svg"
+        image3="https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/home-img/5.svg"
       />
       <ProductCarousel />
       <HeroImage text="Last Chance" image={LastChanceImg} />
