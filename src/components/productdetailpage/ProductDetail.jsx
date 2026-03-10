@@ -10,9 +10,7 @@ export default function ProductDetail() {
 
   useEffect(() => {
     async function fetchProduct() {
-      const url =
-        "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products.json";
-      const response = await fetch(url);
+      const response = await fetch("/products.json");
       const data = await response.json();
       const found = data.find((p) => p.id === Number(id));
       setProduct(found);
@@ -24,7 +22,7 @@ export default function ProductDetail() {
 
   return (
     <article className="product-detail">
-      <ProductGallery images={[product.image, product.imageHover]} title={product.title} />
+      <ProductGallery images={product.images ?? [product.image, product.imageHover]} title={product.title} />
       <ProductSidebar product={product} />
     </article>
   );
