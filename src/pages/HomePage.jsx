@@ -8,6 +8,12 @@ import CategoryCard from "../components/homepage/CategoryCard";
 
 import MainHero from "../img/hero.svg";
 import LastChanceImg from "../img/last-chance.svg";
+import HomeImg1 from "../../public/home-img/1.svg";
+import HomeImg2 from "../../public/home-img/2.svg";
+import HomeImg3 from "../../public/home-img/3.svg";
+import HomeImg4 from "../../public/home-img/4.svg";
+import HomeImg5 from "../../public/home-img/5.svg";
+import HomeImg6 from "../../public/home-img/6.svg";
 
 export default function HomePage() {
   return (
@@ -18,20 +24,20 @@ export default function HomePage() {
       <ProductCarousel />
       <CategoryCard
         label1="All Items"
-        image1="../public/home-img/2.svg"
+        image1={HomeImg2}
         label2="Sale"
-        image2="../public/home-img/3.svg"
+        image2={HomeImg3}
         label3="New Arrivals"
-        image3="../public/home-img/6.svg"
+        image3={HomeImg6}
       />
       <ProductCarousel />
       <CategoryCard
         label1="Clothing"
-        image1="../public/home-img/1.svg"
+        image1={HomeImg1}
         label2="Footwear"
-        image2="../public/home-img/4.svg"
+        image2={HomeImg4}
         label3="Accessories"
-        image3="../public/home-img/5.svg"
+        image3={HomeImg5}
       />
       <ProductCarousel />
       <HeroImage text="Last Chance" image={LastChanceImg} />

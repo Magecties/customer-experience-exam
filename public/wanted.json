@@ -3,37 +3,35 @@
     "id": 1,
     "title": "The biggest bounty",
     "price": 699,
-    "image": "/src/wanted-img/model-1.svg"
+    "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted-img/model-1.svg"
   },
   {
     "id": 2,
     "title": "Outrageous Outlaw",
     "price": 499,
-    "image": "/src/wanted-img/model-2.svg"
+    "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted-img/model-2.svg"
   },
   {
     "id": 3,
     "title": "Badass Bandit",
     "price": 849,
-    "image": "/src/wanted-img/model-3.svg"
+    "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted-img/model-3.svg"
   },
   {
     "id": 4,
     "title": "Criminal Queen",
     "price": 1299,
-    "image": "/src/wanted-img/model-4.svg"
+    "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted-img/model-4.svg"
   },
   {
     "id": 5,
     "title": "Notorious Thief",
     "price": 999,
-    "image": "/src/wanted-img/model-5.svg"
+    "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted-img/model-5.svg"
   },
   {
     "id": 6,
     "title": "Ruthless Raider",
     "price": 1199,
-    "image": "/src/wanted-img/model-6.svg"
-  }
-]
+    "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted-img/model-6.svg"
   

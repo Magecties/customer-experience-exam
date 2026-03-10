@@ -6,7 +6,7 @@ function CardSlider() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    fetch("/wanted.json")
+    fetch("https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
