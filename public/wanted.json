@@ -20,7 +20,7 @@
   {
     "id": 4,
     "title": "Criminal Queen",
-    "price": 1299,
+    "price": 1.299,
     "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted-img/model-4.svg"
   },
   {
@@ -32,7 +32,7 @@
   {
     "id": 6,
     "title": "Ruthless Raider",
-    "price": 1199,
+    "price": 1.199,
     "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted-img/model-6.svg"
   }
 ]
