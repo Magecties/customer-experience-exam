@@ -34,8 +34,8 @@
     "imageHover": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-back.png",
     "images": [
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-vibe.jpg",
-      "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-front.png",
-      "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-back.png"
+      "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-back.png",
+      "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-front.png"
     ],
     "colors": ["Black", "Light Blue", "Dark blue"],
     "sizes": ["XS", "S", "M", "L"],
