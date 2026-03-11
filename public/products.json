@@ -12,7 +12,7 @@
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-hoodie-front.jpg",
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-hoodie-back.png"
     ],
-    "colors": ["Black, Grey, Blue"],
+    "colors": ["Black", "Grey", "Blue"],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "materials": [
       "Quality: 100% Cotton\nWeight: 400gsm\nCare: Machine wash cold, tumble dry low"
