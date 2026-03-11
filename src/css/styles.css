@@ -95,4 +95,61 @@ body.light-mode .toggle-btn {
 
 body.light-mode .ticker-logo {
   filter: none;
-} 
+}
+
+body.light-mode .product-sidebar {
+  background: var(--white);
+}
+
+body.light-mode .product-sidebar .product-name,
+body.light-mode .product-sidebar .product-price,
+body.light-mode .product-sidebar-title,
+body.light-mode .product-sidebar-price {
+  color: var(--black);
+}
+
+body.light-mode .selector-label {
+  color: var(--grey);
+}
+
+body.light-mode .selector-label span {
+  color: var(--black);
+}
+
+body.light-mode .color-circle.active {
+  border-color: var(--black);
+}
+
+body.light-mode .size-btn {
+  color: var(--black);
+  border-color: var(--grey);
+}
+
+body.light-mode .size-btn:hover {
+  border-color: var(--black);
+}
+
+body.light-mode .accordion-header {
+  color: var(--black);
+}
+
+body.light-mode .accordion-icon {
+  color: var(--grey);
+}
+
+body.light-mode .accordion-content {
+  color: var(--grey);
+}
+
+body.light-mode .accordion-item,
+body.light-mode .accordion {
+  border-color: var(--grey);
+}
+
+body.light-mode .size-text {
+  color: var(--black);
+}
+
+body.light-mode .color-text {
+  color: var(--black);
+}

@@ -3,7 +3,7 @@ import "../../css/SizeSelector.css";
 export default function SizeSelector({ sizes, selected, onSelect }) {
   return (
     <div className="size-selector">
-      <p>
+      <p className="size-text">
         SIZE: <span>{selected}</span>
       </p>
       <div className="size-buttons">

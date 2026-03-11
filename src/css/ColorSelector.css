@@ -4,6 +4,14 @@
   gap: 12px;
 }
 
+.color-text {
+  color: var(--white);
+  font-family: var(--headline);
+  font-size: 2rem;
+  margin: 0;
+  line-height: 1;
+}
+
 .selector-label {
   font-size: 0.85rem;
   letter-spacing: 1px;

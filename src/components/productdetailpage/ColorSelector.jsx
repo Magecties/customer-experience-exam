@@ -21,7 +21,7 @@ export default function ColorSelector({ colors, selected, onSelect }) {
 
   return (
     <div className="color-selector">
-      <p>
+      <p className="color-text">
         COLOR: <span>{selected}</span>
       </p>
       <div className="color-circles">
