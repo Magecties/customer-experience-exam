@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "sej mand",
-    "price": 699,
+    "title": "EMBROIDERY LOGO HOODIE",
+    "price": 799,
     "description": "Heavy 400gsm fleece hoodie with bold front graphic print. Dropped shoulders and kangaroo pocket.",
     "category": "hoodies",
     "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-hoodie-vibe.jpg",
@@ -12,33 +12,47 @@
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-hoodie-front.jpg",
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-hoodie-back.png"
     ],
-    "colors": ["Black", "Navy", "Grey"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "rating": { "rate": 4.7, "count": 312 }
+    "colors": ["Black, Grey, Blue"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "materials": [
+      "Quality: 100% Cotton\nWeight: 400gsm\nCare: Machine wash cold, tumble dry low"
+    ],
+    "sizeGuide": [
+      "This product is NOT pre-washed, we recommend you to size up or having it dry-cleaned."
+    ],
+    "shipping": [
+      "Spain 24-48H (Spain & Portugal) - Correos\n-European Shipping 3-5 working days - Maersk\n-International Shipping 5-10 working days - UPS\nIf you have any issues with your order email us at help@scuffers.com and we will be there to help you.\nOrders placed after 1PM (CET) will be shipped the following business day."
+    ]
   },
   {
     "id": 2,
-    "title": "Baggy Cargo Pants",
+    "title": "LOGO DENIM JEANS",
     "price": 899,
     "description": "Wide-leg cargo trousers with six utility pockets. 100% cotton twill in washed black.",
     "category": "pants",
     "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-vibe.jpg",
-    "imageHover": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-front.png",
+    "imageHover": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-back.png",
     "images": [
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-vibe.jpg",
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-front.png",
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-back.png"
     ],
-    "colors": ["Black", "Khaki", "Olive"],
+    "colors": ["Black", "Light Blue", "Dark blue"],
     "sizes": ["XS", "S", "M", "L"],
-    "inStock": true,
-    "rating": { "rate": 4.5, "count": 198 }
+    "materials": [
+      "Quality: 100% Cotton Denim\nPatch: Vegan Leather\nCare: Machine wash cold, tumble dry low"
+    ],
+    "sizeGuide": [
+      "Size up for a regular baggy fit, or size down for a slimmer fit."
+    ],
+    "shipping": [
+      "Spain 24-48H (Spain & Portugal) - Correos\n-European Shipping 3-5 working days - Maersk\n-International Shipping 5-10 working days - UPS\nIf you have any issues with your order email us at help@scuffers.com and we will be there to help you.\nOrders placed after 1PM (CET) will be shipped the following business day."
+    ]
   },
   {
     "id": 3,
-    "title": "Washed Denim Jacket",
-    "price": 1199,
+    "title": "LOGO DENIM JACKET",
+    "price": 999,
     "description": "Vintage-washed oversized denim jacket with distressed detailing and custom back embroidery.",
     "category": "jackets",
     "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-jacket-vibe.jpg",
@@ -48,15 +62,22 @@
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-jacket-front.jpg",
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-jacket-back.jpg"
     ],
-    "colors": ["Blue", "Black", "Lightblue"],
-    "sizes": ["M", "L", "XL"],
-    "inStock": true,
-    "rating": { "rate": 4.8, "count": 421 }
+    "colors": ["Black", "Light Blue", "Dark Blue"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "materials": [
+      "Quality: 100% Cotton Denim\nPatch: Vegan Leather\nCare: Machine wash cold, tumble dry low"
+    ],
+    "sizeGuide": [
+      "Size up for a regular baggy fit, or size down for a slimmer fit."
+    ],
+    "shipping": [
+      "Spain 24-48H (Spain & Portugal) - Correos\n-European Shipping 3-5 working days - Maersk\n-International Shipping 5-10 working days - UPS\nIf you have any issues with your order email us at help@scuffers.com and we will be there to help you.\nOrders placed after 1PM (CET) will be shipped the following business day."
+    ]
   },
   {
     "id": 4,
-    "title": "Box Logo Tee",
-    "price": 399,
+    "title": "SMASH TEE",
+    "price": 499,
     "description": "Essential heavyweight cotton tee with a clean box logo print on chest. Relaxed fit.",
     "category": "t-shirts",
     "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-tshirt-vibe.jpg",
@@ -66,16 +87,21 @@
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-tshirt-front.png",
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-tshirt-back.png"
     ],
-    "colors": ["White", "Black", "Grey"],
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "inStock": true,
-    "rating": { "rate": 4.3, "count": 876 }
+    "colors": ["Black"],
+    "sizes": ["S", "M", "L", "XL"],
+    "materials": [
+      "Quality: 100% Cotton\nWeight: 220gsm\nCare: Machine wash cold, tumble dry low"
+    ],
+    "sizeGuide": ["Boxy Regular Fit"],
+    "shipping": [
+      "Spain 24-48H (Spain & Portugal) - Correos\n-European Shipping 3-5 working days - Maersk\n-International Shipping 5-10 working days - UPS\nIf you have any issues with your order email us at help@scuffers.com and we will be there to help you.\nOrders placed after 1PM (CET) will be shipped the following business day."
+    ]
   },
   {
     "id": 5,
-    "title": "Crewneck Sweatshirt",
-    "price": 1099,
-    "description": "Heavyweight 380gsm crewneck sweatshirt with oversized fit and embroidered chest logo.",
+    "title": "SPLINTER LONG SLEEVE",
+    "price": 499,
+    "description": "Heavyweight 300gsm crewneck sweatshirt with oversized fit and embroidered chest logo.",
     "category": "hoodies",
     "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-crewneck-vibe.jpg",
     "imageHover": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-crewneck-front.png",
@@ -84,15 +110,20 @@
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-crewneck-front.png",
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-crewneck-back.png"
     ],
-    "colors": ["Black", "Navy", "Red"],
-    "sizes": ["S", "L", "XL"],
-    "inStock": false,
-    "rating": { "rate": 4.6, "count": 154 }
+    "colors": ["White"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "materials": [
+      "Quality: 100% Cotton\nWeight: 300gsm\nCare: Machine wash cold, tumble dry low"
+    ],
+    "sizeGuide": ["Boxy Regular Fit"],
+    "shipping": [
+      "Spain 24-48H (Spain & Portugal) - Correos\n-European Shipping 3-5 working days - Maersk\n-International Shipping 5-10 working days - UPS\nIf you have any issues with your order email us at help@scuffers.com and we will be there to help you.\nOrders placed after 1PM (CET) will be shipped the following business day."
+    ]
   },
   {
     "id": 6,
-    "title": "Denim Jorts",
-    "price": 649,
+    "title": "EMBROIDERY JORTS",
+    "price": 599,
     "description": "Baggy cut-off denim shorts with raw hem and faded wash. A warm-weather essential.",
     "category": "pants",
     "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-jorts-vibe.jpg",
@@ -102,15 +133,22 @@
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-jorts-front.png",
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-jorts-back.png"
     ],
-    "colors": ["Black", "Grey", "Navy"],
-    "sizes": ["XS", "S", "M"],
-    "inStock": true,
-    "rating": { "rate": 4.1, "count": 267 }
+    "colors": ["Black", "Dark Blue"],
+    "sizes": ["S", "M", "L", "XL"],
+    "materials": [
+      "Quality: 100% Denim Cotton\nPatch: Vegan Leather\nCare: Machine wash cold, tumble dry low"
+    ],
+    "sizeGuide": [
+      "Size up for a regular baggy fit, or size down for a slimmer fit."
+    ],
+    "shipping": [
+      "Spain 24-48H (Spain & Portugal) - Correos\n-European Shipping 3-5 working days - Maersk\n-International Shipping 5-10 working days - UPS\nIf you have any issues with your order email us at help@scuffers.com and we will be there to help you.\nOrders placed after 1PM (CET) will be shipped the following business day."
+    ]
   },
   {
     "id": 7,
-    "title": "Lostboys Loafers",
-    "price": 1299,
+    "title": "SUEDE SNOAFER",
+    "price": 1399,
     "description": "Sleek leather loafers with a chunky sole and embossed logo detail. Step up your fit.",
     "category": "footwear",
     "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-loafers-vibe.jpg",
@@ -121,14 +159,40 @@
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-loafers-back.png"
     ],
     "colors": ["Black", "Brown"],
-    "sizes": ["40", "41", "42", "43", "44"],
-    "inStock": true,
-    "rating": { "rate": 4.4, "count": 533 }
+    "sizes": [
+      "39",
+      "39.5",
+      "40",
+      "40.5",
+      "41",
+      "41.5",
+      "42",
+      "42.5",
+      "43",
+      "43.5",
+      "44",
+      "44.5",
+      "45",
+      "45.5",
+      "46",
+      "46.5",
+      "47",
+      "47.5"
+    ],
+    "materials": [
+      "Quality: 100% Vegan suede\nInsole: Vegan Leather\nCare: Machine wash cold, tumble dry low"
+    ],
+    "sizeGuide": [
+      "We recommend sizing a full size down for a comfortable snug fit."
+    ],
+    "shipping": [
+      "Spain 24-48H (Spain & Portugal) - Correos\n-European Shipping 3-5 working days - Maersk\n-International Shipping 5-10 working days - UPS\nIf you have any issues with your order email us at help@scuffers.com and we will be there to help you.\nOrders placed after 1PM (CET) will be shipped the following business day."
+    ]
   },
   {
     "id": 8,
-    "title": "Wide Leg Pants",
-    "price": 1349,
+    "title": "SANDBLASTED THIRTEEN EVERYDAY JEANS",
+    "price": 799,
     "description": "Relaxed wide-leg trousers with a high rise and clean front pleat. Tailored street style.",
     "category": "pants",
     "image": "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-2-vibe.jpg",
@@ -138,9 +202,16 @@
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-2-front.png",
       "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/products-img/lostboys-pants-2-back.png"
     ],
-    "colors": ["Black", "Navy", "Red", "Teal"],
+    "colors": ["Black", "Brown"],
     "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "rating": { "rate": 4.9, "count": 89 }
+    "materials": [
+      "Quality: 100% Denim Cotton\nPatch: Vegan Leather\nCare: Machine wash cold, tumble dry low"
+    ],
+    "sizeGuide": [
+      "Size up for a regular baggy fit, or size down for a slimmer fit."
+    ],
+    "shipping": [
+      "Spain 24-48H (Spain & Portugal) - Correos\n-European Shipping 3-5 working days - Maersk\n-International Shipping 5-10 working days - UPS\nIf you have any issues with your order email us at help@scuffers.com and we will be there to help you.\nOrders placed after 1PM (CET) will be shipped the following business day."
+    ]
   }
 ]
