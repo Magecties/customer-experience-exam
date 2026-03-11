@@ -19,6 +19,7 @@
   --subheadline: "inter", sans-serif;
   --filter: invert(44%) sepia(97%) saturate(500%) hue-rotate(360deg)
     brightness(97%) contrast(98%);
+  --filter-white: brightness(0) invert(1);
 }
 
 body {
@@ -91,3 +92,7 @@ body.light-mode .drawer {
 body.light-mode .toggle-btn {
   color: var(--black);
 }
+
+body.light-mode .ticker-logo {
+  filter: none;
+} 
