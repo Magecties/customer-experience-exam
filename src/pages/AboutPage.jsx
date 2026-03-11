@@ -11,28 +11,27 @@ export default function AboutPage() {
         <main className="about-main">
           <div className="about-text">
             <p>
-              Vi er skabt ud fra en kærlighed til stærk stil og skarpe
-              silhuetter.
+              We were born from a love of strong style and sharp silhouettes.
             </p>
             <p>
-              Vores univers bygger på et nøje kurateret udvalg af tøj, sko og
-              accessories, hvor hvert item er valgt med fokus på attitude,
-              kvalitet og personlighed.
+              Our universe is built on a carefully curated selection of
+              clothing, shoes and accessories — each piece chosen with a focus
+              on attitude, quality and personality.
             </p>
             <p>
-              Vi tror ikke på overflod – kun på det, der virkelig fortjener en
-              plads i garderoben.
+              We don't believe in excess — only in what truly deserves a place
+              in your wardrobe.
             </p>
             <p>
-              Inspireret af kontrasterne mellem det rå og det raffinerede,
-              bevæger vores æstetik sig i krydsfeltet mellem klassisk tailoring
-              og moderne street.
+              Inspired by the contrasts between the raw and the refined, our
+              aesthetic moves at the intersection of classic tailoring and
+              modern street.
             </p>
             <p>
-              Vi klæder dem, der tør skille sig ud – uden at larme unødvendigt.
+              We dress those who dare to stand out — without making unnecessary
+              noise.
             </p>
           </div>
-
           <img
             className="about-image"
             src={wantedLogo}
