@@ -166,16 +166,14 @@
   justify-content: center;
   width: 52px;
   height: 52px;
-  border-radius: 50%;
-  border: 2px solid var(--orange);
-  background: transparent;
-  color: var(--orange);
+  background: var(--orange);
+  border: 2px solid var(--black);
+  color: var(--black);
   cursor: pointer;
   transition:
     background 0.2s ease,
     color 0.2s ease,
-    transform 0.2s ease,
-    opacity 0.2s ease;
+    transform 0.2s ease;
 }
 
 .card-slider-btn:hover {
@@ -185,8 +183,11 @@
 }
 
 .card-slider-arrow-icon {
-  width: 24px;
-  height: 24px;
+  font-family: "bronco", serif;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1;
+  display: block;
 }
 
 .card-slider-dots {
@@ -225,7 +226,6 @@
   }
 
   .card-slider-arrow-icon {
-    width: 18px;
-    height: 18px;
+    font-size: 18px;
   }
 }

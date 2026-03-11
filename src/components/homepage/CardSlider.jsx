@@ -6,7 +6,9 @@ function CardSlider() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    fetch("https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted.json")
+    fetch(
+      "https://raw.githubusercontent.com/Magecties/customer-experience-exam/refs/heads/main/public/wanted.json",
+    )
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
@@ -24,17 +26,7 @@ function CardSlider() {
             setIndex((index - 1 + products.length) % products.length)
           }
         >
-          <svg
-            className="card-slider-arrow-icon"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <polyline points="15 18 9 12 15 6" />
-          </svg>
+          <span className="card-slider-arrow-icon">&lt;</span>
         </button>
 
         <div className="card-slider-cards">
@@ -60,17 +52,7 @@ function CardSlider() {
           className="card-slider-btn"
           onClick={() => setIndex((index + 1) % products.length)}
         >
-          <svg
-            className="card-slider-arrow-icon"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <polyline points="9 18 15 12 9 6" />
-          </svg>
+          <span className="card-slider-arrow-icon">&gt;</span>
         </button>
       </div>
 
