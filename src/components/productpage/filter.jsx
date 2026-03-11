@@ -7,14 +7,9 @@ const COLORS = [
   { name: "Black", hex: "#111111" },
   { name: "White", hex: "#f5f5f5" },
   { name: "Grey", hex: "#808080" },
-  { name: "Navy", hex: "#001f5b" },
-  { name: "Blue", hex: "#1a237e" },
-  { name: "Lightblue", hex: "#add8e6" },
-  { name: "Red", hex: "#9b1c1c" },
-  { name: "Teal", hex: "#2e7d7b" },
-  { name: "Olive", hex: "#556b2f" },
-  { name: "Khaki", hex: "#c3b091" },
-  { name: "Beige", hex: "#e8dcc8" },
+  { name: "Dark Blue", hex: "#1f2886" },
+  { name: "Light Blue", hex: "#add8e6" },
+  { name: "Brown", hex: "#744f10" },
 ];
 
 export default function FilterDrawer({
