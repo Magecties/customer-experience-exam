@@ -33,7 +33,7 @@ export default function Footer() {
           <span className="footer-heading">Support</span>
           <NavLink to="/return">Return & Exchanges</NavLink>
           <NavLink to="/faq">FAQ</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/*">Contact</NavLink>
         </div>
 
         <div className="footer-column">
