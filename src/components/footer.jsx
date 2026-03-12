@@ -48,7 +48,7 @@ export default function Footer() {
           <a href="#">
             <img src={facebookIcon} alt="Facebook" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/wanted.archives/">
             <img src={instagramIcon} alt="Instagram" />
           </a>
           <a href="#">
