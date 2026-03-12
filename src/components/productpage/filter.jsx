@@ -119,6 +119,7 @@ export default function FilterDrawer({
               value={priceMax}
               onChange={(e) => setPriceMax(Number(e.target.value))}
               className="price-slider"
+              aria-label="price slider"
             />
           </section>
 
@@ -191,6 +192,7 @@ export default function FilterDrawer({
             <div className="sort-select-wrapper">
               <select
                 className="sort-select"
+                aria-label="Sort products"
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
               >

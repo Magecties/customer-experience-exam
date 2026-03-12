@@ -21,6 +21,7 @@ function CardSlider() {
     <section className="card-slider">
       <div className="card-slider-wrapper">
         <button
+          aria-label="previous"
           className="card-slider-btn"
           onClick={() =>
             setIndex((index - 1 + products.length) % products.length)
@@ -59,6 +60,7 @@ function CardSlider() {
       <div className="card-slider-dots">
         {products.map((_, i) => (
           <button
+            aria-label="next"
             key={i}
             className={`card-slider-dot ${i === index ? "card-slider-dot--active" : ""}`}
             onClick={() => setIndex(i)}
