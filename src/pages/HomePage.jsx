@@ -18,7 +18,6 @@ import DualImageHero from "../components/homepage/DualImageHero";
 import EarlyAccess from "../img/Acces.svg";
 import OurCommunity from "../img/Community.svg";
 
-
 export default function HomePage() {
   return (
     <div className="home-page">
@@ -28,9 +27,9 @@ export default function HomePage() {
       <ProductCarousel />
       <CategoryCard
         label1="All Items"
-        image1={HomeImg2}
+        image1={HomeImg4}
         label2="Sale"
-        image2={HomeImg3}
+        image2={HomeImg5}
         label3="New Arrivals"
         image3={HomeImg6}
       />
@@ -39,9 +38,9 @@ export default function HomePage() {
         label1="Clothing"
         image1={HomeImg1}
         label2="Footwear"
-        image2={HomeImg4}
+        image2={HomeImg2}
         label3="Accessories"
-        image3={HomeImg5}
+        image3={HomeImg3}
       />
       <ProductCarousel />
       <HeroImage text="Last Chance" image={LastChanceImg} />
