@@ -28,9 +28,9 @@ export default function HomePage() {
       <CategoryCard
         label1="All Items"
         image1={HomeImg4}
-        label2="Sale"
+        label2="New Arrivals"
         image2={HomeImg5}
-        label3="New Arrivals"
+        label3="Sale"
         image3={HomeImg6}
       />
       <ProductCarousel />
