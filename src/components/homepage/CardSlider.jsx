@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router";
 import "../../css/CardSlider.css";
 
 function CardSlider() {
@@ -32,7 +33,12 @@ function CardSlider() {
 
         <div className="card-slider-cards">
           {visible.map((product) => (
-            <div key={product.id} className="wanted-card">
+            <Link
+              key={product.id}
+              to="/404"
+              className="wanted-card"
+              aria-label={`${product.title} - go to page`}
+            >
               <div className="wanted-card-overlay">
                 <p className="wanted-card-name">{product.title}</p>
                 <div className="wanted-card-image-wrapper">
@@ -45,7 +51,7 @@ function CardSlider() {
                 <div className="wanted-card-price">{product.price} DKK</div>
                 <div className="wanted-card-price-hover">Go to page</div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 

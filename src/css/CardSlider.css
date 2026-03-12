@@ -23,6 +23,8 @@
 /* ─── Wanted card ─────────────────────────────────────────────────────────── */
 
 .wanted-card {
+  display: block;
+  text-decoration: none;
   position: relative;
   flex: 1 1 0;
   max-width: 420px;
