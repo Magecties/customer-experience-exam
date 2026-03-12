@@ -17,7 +17,7 @@
 .hero-section {
   position: relative;
   width: 100%;
-  min-height: 480px;
+  min-height: 640px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -38,7 +38,6 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
   pointer-events: none;
   z-index: 1;
 }
