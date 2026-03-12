@@ -1,29 +1,31 @@
-import { useState } from "react"
-import { Link } from "react-router"
-
-
+import { useState } from "react";
+import { Link } from "react-router";
 
 export default function Product({ product }) {
+  const [hovered, setHovered] = useState(false);
 
-const [hovered, setHovered] = useState(false)
+  return (
+    <Link
+      to={`/products/${product.id}`}
+      style={{ textDecoration: "none", color: "inherit" }}
+    >
+      <article className="product-card">
+        <img
+          src={hovered ? product.imageHover : product.image}
+          className="product-image"
+          alt="Product image"
+          onMouseEnter={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
+        />
 
-return (
-<Link to={`/products/${product.id}`} style={{ textDecoration: "none", color: "inherit" }}>
-<article className="product-card">
-<img
-        src={hovered ? product.imageHover : product.image}
-        className="product-image"
-        onMouseEnter={() => setHovered(true)}
-        onMouseLeave={() => setHovered(false)}
-      />
-
-<div className="product-info">
-        <h2 className="product-title">{product.title}</h2>
-        <p className="product-description">{product.description || "No descripton available"}</p>
-        <p className="product-price">DKK {product.price}</p>
-</div>
-</article>
-</Link>
-)
-
+        <div className="product-info">
+          <h2 className="product-title">{product.title}</h2>
+          <p className="product-description">
+            {product.description || "No descripton available"}
+          </p>
+          <p className="product-price">DKK {product.price}</p>
+        </div>
+      </article>
+    </Link>
+  );
 }
