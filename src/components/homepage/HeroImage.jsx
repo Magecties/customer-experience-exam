@@ -1,15 +1,15 @@
 import "../../css/NavbarHero.css";
 import { Link } from "react-router";
 
-export default function HeroImage({ text, image, to = "/404" }) {
+export default function HeroImage({ text, image }) {
   return (
     <section className="hero-section">
       <img src={image} alt={text} />
       <div className="hero-content">
         <Link
-          to={to}
+          to="/products"
           className="hero-label"
-          aria-label={`${text} - go to ${to}`}
+          aria-label={`${text} - go to Product Page`}
         >
           <span>{text}</span>
         </Link>
