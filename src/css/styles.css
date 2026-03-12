@@ -153,3 +153,24 @@ body.light-mode .size-text {
 body.light-mode .color-text {
   color: var(--black);
 }
+
+body.light-mode .not-found-image {
+  filter: none;
+}
+
+body.light-mode .not-found-link {
+  color: var(--white);
+}
+
+body.light-mode .not-found-link::before {
+  filter: none;
+}
+
+body.light-mode .not-found-link:hover::before {
+  filter: var(--filter);
+}
+
+body.light-mode .not-found-header,
+body.light-mode .not-found-title {
+  color: var(--black);
+}

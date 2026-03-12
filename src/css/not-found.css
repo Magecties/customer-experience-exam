@@ -1,6 +1,5 @@
 /* 404 */
 .not-found-page {
-  background-color: var(--white);
   min-height: 100vh;
   position: relative;
 }
@@ -21,6 +20,7 @@
   white-space: nowrap;
   rotate: +5deg;
   text-decoration: none;
+  color: var(--black);
 }
 
 .not-found-link::before {
@@ -31,6 +31,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
+  filter: var(--filter-white);
+  color: var(--black);
 }
 
 .not-found-link:hover::before {
@@ -52,7 +54,7 @@
 }
 
 .not-found-header {
-  color: var(--black);
+  color: var(--white);
   padding: 2rem 1rem;
   text-align: center;
 }
@@ -78,4 +80,5 @@
 .not-found-image {
   animation: spin-bounce 3s linear infinite;
   transform-origin: center;
+ filter: var(--filter-white);
 }
