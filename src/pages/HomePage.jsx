@@ -21,7 +21,8 @@ import OurCommunity from "../img/Community.svg";
 export default function HomePage() {
   return (
     <div className="home-page">
-      <HeroImage text="New Arrivals" image={MainHero} to="/new-arrivals" />
+      <HeroImage text="New Arrivals" 
+      image={MainHero} to="/new-arrivals" />
       <TheMostWantedText />
       <CardSlider />
       <ProductCarousel />
@@ -43,7 +44,8 @@ export default function HomePage() {
         image3={HomeImg3}
       />
       <ProductCarousel />
-      <HeroImage text="Last Chance" image={LastChanceImg} to="/last-chance" />
+      <HeroImage text="Last Chance" 
+      image={LastChanceImg} to="/last-chance" />
       <Ticker />
       <DualImageHero
         label1="Our Community"
